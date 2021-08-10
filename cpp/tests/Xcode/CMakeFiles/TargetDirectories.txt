@@ -1,0 +1,3 @@
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/tests/Xcode/CMakeFiles/test.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/tests/Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/tests/Xcode/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,7 @@
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/install/local.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/rebuild_cache.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/edit_cache.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/install/strip.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/dpJoshi.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/install.dir
+/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles/list_install_components.dir

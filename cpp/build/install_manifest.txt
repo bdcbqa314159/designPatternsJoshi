@@ -1,0 +1,4 @@
+/usr/local/lib/libdpJoshi.dylib
+/usr/local/include/dpJoshi
+/usr/local/include/dpJoshi_bits/.DS_Store
+/usr/local/include/dpJoshi_bits/intro.hpp
