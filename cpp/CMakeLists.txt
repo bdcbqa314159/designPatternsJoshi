@@ -19,7 +19,12 @@ set(PROJECT_INCLUDE_DIR "include/dpJoshi_bits")
 # Source files
 set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/intro.hpp
+    ${PROJECT_INCLUDE_DIR}/random1.hpp
+    ${PROJECT_INCLUDE_DIR}/simpleMC.hpp
     ${PROJECT_SOURCE_DIR}/intro.cpp
+    ${PROJECT_SOURCE_DIR}/random1.cpp
+    ${PROJECT_SOURCE_DIR}/simpleMC.cpp
+    
 )
 
 # Set up such that XCode organizes the files correctly

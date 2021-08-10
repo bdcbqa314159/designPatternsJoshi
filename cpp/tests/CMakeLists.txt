@@ -12,8 +12,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/../bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/../bin)
 
-find_library(QUANTFIOOP_LIB quantFiOop HINTS /usr/local/lib/)
+find_library(DPJOSHI_LIB dpJoshi HINTS /usr/local/lib/)
 
 add_executable(test src/test.cpp)
 
-target_link_libraries(test PUBLIC ${QUANTFIOOP_LIB})
+target_link_libraries(test PUBLIC ${DPJOSHI_LIB})

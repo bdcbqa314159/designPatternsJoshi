@@ -198,6 +198,54 @@ src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/intro.cpp.s
 .PHONY : src/intro.cpp.s
 
+src/random1.o: src/random1.cpp.o
+.PHONY : src/random1.o
+
+# target to build an object file
+src/random1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random1.cpp.o
+.PHONY : src/random1.cpp.o
+
+src/random1.i: src/random1.cpp.i
+.PHONY : src/random1.i
+
+# target to preprocess a source file
+src/random1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random1.cpp.i
+.PHONY : src/random1.cpp.i
+
+src/random1.s: src/random1.cpp.s
+.PHONY : src/random1.s
+
+# target to generate assembly for a file
+src/random1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random1.cpp.s
+.PHONY : src/random1.cpp.s
+
+src/simpleMC.o: src/simpleMC.cpp.o
+.PHONY : src/simpleMC.o
+
+# target to build an object file
+src/simpleMC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.o
+.PHONY : src/simpleMC.cpp.o
+
+src/simpleMC.i: src/simpleMC.cpp.i
+.PHONY : src/simpleMC.i
+
+# target to preprocess a source file
+src/simpleMC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.i
+.PHONY : src/simpleMC.cpp.i
+
+src/simpleMC.s: src/simpleMC.cpp.s
+.PHONY : src/simpleMC.s
+
+# target to generate assembly for a file
+src/simpleMC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.s
+.PHONY : src/simpleMC.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,6 +262,12 @@ help:
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"
+	@echo "... src/random1.o"
+	@echo "... src/random1.i"
+	@echo "... src/random1.s"
+	@echo "... src/simpleMC.o"
+	@echo "... src/simpleMC.i"
+	@echo "... src/simpleMC.s"
 .PHONY : help
 
 

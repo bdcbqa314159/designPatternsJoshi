@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in test
+test in test, depends on:
+ZERO_CHECK in test (explicit)
+ALL_BUILD in test, depends on:
+test in test (explicit)
+ZERO_CHECK in test (explicit)

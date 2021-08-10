@@ -1,0 +1,57 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "dba33dfe39cf0f17b75e951e417a756d30116995c1954dd3d17765227594ae95"
+    },
+    {
+      "guid" : "dba33dfe39cf0f17b75e951e417a756d183ad2da0b7d102d5640de5c1e5d9d42"
+    },
+    {
+      "guid" : "dba33dfe39cf0f17b75e951e417a756d22335a8eaeaab0bc036cd9ca8a5dab83"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-gjwagrpgzvjwvffilzlrgqloloev/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-gjwagrpgzvjwvffilzlrgqloloev/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

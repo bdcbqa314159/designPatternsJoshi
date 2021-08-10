@@ -2,5 +2,7 @@
 #define DPJOSHI_H
 
 #include "dpJoshi_bits/intro.hpp"
+#include "dpJoshi_bits/random1.hpp"
+#include "dpJoshi_bits/simpleMC.hpp"
 
 #endif
