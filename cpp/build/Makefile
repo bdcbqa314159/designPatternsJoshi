@@ -198,6 +198,30 @@ src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/intro.cpp.s
 .PHONY : src/intro.cpp.s
 
+src/payoff1.o: src/payoff1.cpp.o
+.PHONY : src/payoff1.o
+
+# target to build an object file
+src/payoff1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff1.cpp.o
+.PHONY : src/payoff1.cpp.o
+
+src/payoff1.i: src/payoff1.cpp.i
+.PHONY : src/payoff1.i
+
+# target to preprocess a source file
+src/payoff1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff1.cpp.i
+.PHONY : src/payoff1.cpp.i
+
+src/payoff1.s: src/payoff1.cpp.s
+.PHONY : src/payoff1.s
+
+# target to generate assembly for a file
+src/payoff1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff1.cpp.s
+.PHONY : src/payoff1.cpp.s
+
 src/random1.o: src/random1.cpp.o
 .PHONY : src/random1.o
 
@@ -262,6 +286,9 @@ help:
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"
+	@echo "... src/payoff1.o"
+	@echo "... src/payoff1.i"
+	@echo "... src/payoff1.s"
 	@echo "... src/random1.o"
 	@echo "... src/random1.i"
 	@echo "... src/random1.s"

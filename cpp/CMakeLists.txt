@@ -21,9 +21,12 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/intro.hpp
     ${PROJECT_INCLUDE_DIR}/random1.hpp
     ${PROJECT_INCLUDE_DIR}/simpleMC.hpp
+    ${PROJECT_INCLUDE_DIR}/payoff1.hpp
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/random1.cpp
     ${PROJECT_SOURCE_DIR}/simpleMC.cpp
+    ${PROJECT_SOURCE_DIR}/payoff1.cpp
+    
     
 )
 

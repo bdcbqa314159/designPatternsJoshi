@@ -3,4 +3,5 @@
 /usr/local/include/dpJoshi_bits/.DS_Store
 /usr/local/include/dpJoshi_bits/random1.hpp
 /usr/local/include/dpJoshi_bits/intro.hpp
+/usr/local/include/dpJoshi_bits/payoff1.hpp
 /usr/local/include/dpJoshi_bits/simpleMC.hpp

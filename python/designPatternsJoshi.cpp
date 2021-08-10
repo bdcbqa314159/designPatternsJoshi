@@ -3,6 +3,7 @@
 namespace py = pybind11;
 
 void init_MC(py::module &);
+void init_PayOff(py::module &);
 
 namespace dpj {
 
@@ -11,6 +12,7 @@ PYBIND11_MODULE(dpJoshi, m) {
     m.doc() = "Working on Design Patterns book of Mark Joshi with a python -> excel interface.";
 
     init_MC(m);
+    init_PayOff(m);
 
 	}
 

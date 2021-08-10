@@ -229,4 +229,6 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
   /usr/local/include/dpJoshi_bits/simpleMC.hpp \
-  /usr/local/include/dpJoshi_bits/./random1.hpp
+  /usr/local/include/dpJoshi_bits/./random1.hpp \
+  /usr/local/include/dpJoshi_bits/./payoff1.hpp \
+  /usr/local/include/dpJoshi_bits/payoff1.hpp
