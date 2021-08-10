@@ -2,15 +2,15 @@
 
 namespace py = pybind11;
 
-void init_say(py::module &);
+void init_MC(py::module &);
 
-namespace qf {
+namespace dpj {
 
-PYBIND11_MODULE(quantFiOop, m) {
+PYBIND11_MODULE(dpJoshi, m) {
     // Optional docstring
-    m.doc() = "Working on a Quantitative Finance - an OOP approach in C++";
+    m.doc() = "Working on Design Patterns book of Mark Joshi with a python -> excel interface.";
 
-    init_say(m);
+    init_MC(m);
 
 	}
 

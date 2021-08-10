@@ -1,4 +1,4 @@
-#include "../cpp/include/quantFiOop_bits/intro.hpp"
+#include "../cpp/include/dpJoshi_bits/simpleMC.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -6,8 +6,8 @@
 
 namespace py = pybind11;
 
-void init_say(py::module &m){
+void init_MC(py::module &m){
 
-    m.def("say", &say);//, py::arg("msg"));
+    m.def("simpleMC", &SimpleMonteCarlo1);//, py::arg("msg"));
 }
 

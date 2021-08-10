@@ -18,6 +18,7 @@ int testingSimpleMC(){
     
     std::cout<<"Call price with simple MC : "<<result<<std::endl;
     
+    
     return 0;
 }
 
