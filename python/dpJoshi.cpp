@@ -1,6 +1,7 @@
 #include "../cpp/include/dpJoshi_bits/simpleMC.hpp"
 #include "../cpp/include/dpJoshi_bits/payoff1.hpp"
 #include "../cpp/include/dpJoshi_bits/payoff2.hpp"
+#include "../cpp/include/dpJoshi_bits/vanilla1.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -14,14 +15,6 @@ public:
     double operator()(double Spot) const override { PYBIND11_OVERLOAD_PURE_NAME(double, PayOff, "__call__", operator(), Spot); }
 };
 
-
-void init_MC(py::module &m){
-
-    m.def("simpleMC1", &SimpleMonteCarlo1);
-    m.def("simpleMC2", py::overload_cast<const PayOff1& , double , double , double , double , unsigned long >(&SimpleMonteCarlo2));
-    
-    m.def("simpleMC2", py::overload_cast<const PayOff&  ,double , double , double , double , unsigned long >(&SimpleMonteCarlo2));
-}
 
 void init_PayOff(py::module &m){
     
@@ -55,7 +48,21 @@ void init_PayOff(py::module &m){
     
     py::class_<PayOffDoubleDigital> payoffDD(m, "PayOffDD", payoff);
     payoffDD.def(py::init<double &, double &>());
+    
+    py::class_<VanillaOption> vanilla1(m, "Vanilla1");
+    vanilla1.def(py::init<PayOff &, double &>());
 
+}
+
+
+void init_MC(py::module &m){
+
+    m.def("simpleMC1", &SimpleMonteCarlo1);
+    m.def("simpleMC2", py::overload_cast<const PayOff1& , double , double , double , double , unsigned long >(&SimpleMonteCarlo2));
+    
+    m.def("simpleMC2", py::overload_cast<const PayOff&  ,double , double , double , double , unsigned long >(&SimpleMonteCarlo2));
+    
+    m.def("simpleMC3", &SimpleMonteCarlo3);
 }
 
 

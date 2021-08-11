@@ -294,6 +294,30 @@ cpp/src/simpleMC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.s
 .PHONY : cpp/src/simpleMC.cpp.s
 
+cpp/src/vanilla1.o: cpp/src/vanilla1.cpp.o
+.PHONY : cpp/src/vanilla1.o
+
+# target to build an object file
+cpp/src/vanilla1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o
+.PHONY : cpp/src/vanilla1.cpp.o
+
+cpp/src/vanilla1.i: cpp/src/vanilla1.cpp.i
+.PHONY : cpp/src/vanilla1.i
+
+# target to preprocess a source file
+cpp/src/vanilla1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.i
+.PHONY : cpp/src/vanilla1.cpp.i
+
+cpp/src/vanilla1.s: cpp/src/vanilla1.cpp.s
+.PHONY : cpp/src/vanilla1.s
+
+# target to generate assembly for a file
+cpp/src/vanilla1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.s
+.PHONY : cpp/src/vanilla1.cpp.s
+
 python/designPatternsJoshi.o: python/designPatternsJoshi.cpp.o
 .PHONY : python/designPatternsJoshi.o
 
@@ -370,6 +394,9 @@ help:
 	@echo "... cpp/src/simpleMC.o"
 	@echo "... cpp/src/simpleMC.i"
 	@echo "... cpp/src/simpleMC.s"
+	@echo "... cpp/src/vanilla1.o"
+	@echo "... cpp/src/vanilla1.i"
+	@echo "... cpp/src/vanilla1.s"
 	@echo "... python/designPatternsJoshi.o"
 	@echo "... python/designPatternsJoshi.i"
 	@echo "... python/designPatternsJoshi.s"

@@ -294,6 +294,30 @@ src/simpleMC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.s
 .PHONY : src/simpleMC.cpp.s
 
+src/vanilla1.o: src/vanilla1.cpp.o
+.PHONY : src/vanilla1.o
+
+# target to build an object file
+src/vanilla1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla1.cpp.o
+.PHONY : src/vanilla1.cpp.o
+
+src/vanilla1.i: src/vanilla1.cpp.i
+.PHONY : src/vanilla1.i
+
+# target to preprocess a source file
+src/vanilla1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla1.cpp.i
+.PHONY : src/vanilla1.cpp.i
+
+src/vanilla1.s: src/vanilla1.cpp.s
+.PHONY : src/vanilla1.s
+
+# target to generate assembly for a file
+src/vanilla1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla1.cpp.s
+.PHONY : src/vanilla1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -322,6 +346,9 @@ help:
 	@echo "... src/simpleMC.o"
 	@echo "... src/simpleMC.i"
 	@echo "... src/simpleMC.s"
+	@echo "... src/vanilla1.o"
+	@echo "... src/vanilla1.i"
+	@echo "... src/vanilla1.s"
 .PHONY : help
 
 

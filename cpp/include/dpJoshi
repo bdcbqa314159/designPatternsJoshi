@@ -6,5 +6,6 @@
 #include "dpJoshi_bits/simpleMC.hpp"
 #include "dpJoshi_bits/payoff1.hpp"
 #include "dpJoshi_bits/payoff2.hpp"
+#include "dpJoshi_bits/vanilla1.hpp"
 
 #endif

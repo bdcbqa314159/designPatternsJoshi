@@ -6,5 +6,7 @@ dependencies: \
   /usr/local/include/dpJoshi_bits/./random1.hpp \
   /usr/local/include/dpJoshi_bits/./payoff1.hpp \
   /usr/local/include/dpJoshi_bits/./payoff2.hpp \
+  /usr/local/include/dpJoshi_bits/./vanilla1.hpp \
   /usr/local/include/dpJoshi_bits/payoff1.hpp \
-  /usr/local/include/dpJoshi_bits/payoff2.hpp
+  /usr/local/include/dpJoshi_bits/payoff2.hpp \
+  /usr/local/include/dpJoshi_bits/vanilla1.hpp

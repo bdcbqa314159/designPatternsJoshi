@@ -139,10 +139,24 @@ CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp -o CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.s
 
+CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o: ../cpp/src/vanilla1.cpp
+CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o -MF CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o.d -o CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp
+
+CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp > CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.i
+
+CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp -o CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.s
+
 CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
 CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o: ../python/designPatternsJoshi.cpp
 CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o -MF CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o.d -o CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/python/designPatternsJoshi.cpp
 
 CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.s: cmake_force
 CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
 CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: ../python/dpJoshi.cpp
 CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o -MF CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o.d -o CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/python/dpJoshi.cpp
 
 CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.i: cmake_force
@@ -174,6 +188,7 @@ dpJoshi_OBJECTS = \
 "CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o" \
 "CMakeFiles/dpJoshi.dir/cpp/src/random1.cpp.o" \
 "CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.o" \
+"CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o" \
 "CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o" \
 "CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o"
 
@@ -185,11 +200,12 @@ dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/cpp/src/random1.cpp.o
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.o
+dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.o
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/python/designPatternsJoshi.cpp.o
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/build.make
 dpJoshi.cpython-38-darwin.so: CMakeFiles/dpJoshi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared module dpJoshi.cpython-38-darwin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared module dpJoshi.cpython-38-darwin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dpJoshi.dir/link.txt --verbose=$(VERBOSE)
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -x /Users/bernardocohen/repos/designPatternsJoshi/build/dpJoshi.cpython-38-darwin.so
 

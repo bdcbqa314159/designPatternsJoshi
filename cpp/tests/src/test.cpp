@@ -141,6 +141,38 @@ int testingSimpleMC2_doubleDigital(){
     //From another book - price has to be around "Options Price:   0.32009"
     
     std::cout<<"Double Digital price with simple MC : "<<result<<std::endl;
+    
+    return 0;
+}
+
+int testingSimpleMC3_doubleDigital(){
+    
+    
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    
+    unsigned long NumberOfPaths = 100000;
+    
+    double LowerLevel = 100;
+    double UpperLevel = 120;
+   
+    
+    PayOffDoubleDigital payOffDD(LowerLevel,UpperLevel);
+    VanillaOption theOption(payOffDD, Expiry);
+    
+    
+    double result = SimpleMonteCarlo3(theOption, Spot, Vol, r, NumberOfPaths);
+
+    
+    //From another book - price has to be around "Call Price : 10.4506"
+    //From another book - price has to be around "Put Price : 5.57352"
+    //From another book - price has to be around "Options Price:   0.32009"
+    
+    std::cout<<"Double Digital price with simple MC : "<<result<<std::endl;
 
     
     return 0;
@@ -155,7 +187,8 @@ int main() {
 //    testingSimpleMC2();
 //    testingSimpleMC2_otherPayOff();
 //    testingSimpleMC2_otherPayOff_pointer();
-    testingSimpleMC2_doubleDigital();
+//    testingSimpleMC2_doubleDigital();
+    testingSimpleMC3_doubleDigital();
     
     
     return 0;

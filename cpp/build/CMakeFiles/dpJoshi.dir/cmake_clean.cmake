@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dpJoshi.dir/src/random1.cpp.o.d"
   "CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.o"
   "CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.o.d"
+  "CMakeFiles/dpJoshi.dir/src/vanilla1.cpp.o"
+  "CMakeFiles/dpJoshi.dir/src/vanilla1.cpp.o.d"
   "libdpJoshi.dylib"
   "libdpJoshi.pdb"
 )

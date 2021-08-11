@@ -1,5 +1,6 @@
 #include "../include/dpJoshi_bits/simpleMC.hpp"
 
+
 double SimpleMonteCarlo1(double Expiry, double Strike, double Spot, double Vol,double r, unsigned long NumberOfPaths){
                             
     double variance = Vol*Vol*Expiry;
@@ -61,6 +62,30 @@ double SimpleMonteCarlo2(const PayOff &thePayOff, double Expiry, double Spot, do
         double thisGaussian = GetOneGaussianByBoxMuller();
         thisSpot = movedSpot*exp(rootVariance*thisGaussian);
         double thisPayoff = thePayOff(thisSpot);
+        runningSum += thisPayoff;
+    }
+    
+    double mean = runningSum/NumberOfPaths;
+    mean *= exp(-r*Expiry);
+    return mean;
+}
+
+double SimpleMonteCarlo3(const VanillaOption &TheOption, double Spot, double Vol, double r, unsigned long NumberOfPaths){
+                        
+
+    double Expiry = TheOption.GetExpiry();
+    double variance = Vol*Vol*Expiry;
+    double rootVariance = sqrt(variance);
+    double itoCorrection = -0.5*variance;
+    
+    double movedSpot = Spot*exp(r*Expiry+itoCorrection);
+    double thisSpot;
+    double runningSum=0;
+    
+    for (unsigned long i{}; i<NumberOfPaths; ++i){
+        double thisGaussian = GetOneGaussianByBoxMuller();
+        thisSpot = movedSpot*exp(rootVariance*thisGaussian);
+        double thisPayoff = TheOption.OptionPayOff(thisSpot);
         runningSum += thisPayoff;
     }
     
