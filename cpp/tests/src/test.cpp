@@ -78,11 +78,84 @@ int testingSimpleMC2_otherPayOff(){
 }
 
 
+int testingSimpleMC2_otherPayOff_pointer(){
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    
+    unsigned long NumberOfPaths = 100000;
+    unsigned long optionType;
+    
+    std::cout<<"Enter 0 for call, otherwise put ";
+    std::cin>>optionType;
+    
+    PayOff* thePayOffPtr;
+    
+    if (optionType == 0) thePayOffPtr = new PayOffCall(Strike);
+    else thePayOffPtr = new PayOffPut(Strike);
+    
+    
+    double result = SimpleMonteCarlo2(*thePayOffPtr, Expiry, Spot, Vol, r, NumberOfPaths);
+
+    
+    //From another book - price has to be around "Call Price : 10.4506"
+    //From another book - price has to be around "Put Price : 5.57352"
+    
+    if (optionType == 0)
+        std::cout<<"Call price with simple MC : "<<result<<std::endl;
+    
+    else
+        std::cout<<"Put price with simple MC : "<<result<<std::endl;
+    
+    delete thePayOffPtr;
+
+    
+    return 0;
+}
+
+int testingSimpleMC2_doubleDigital(){
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    
+    unsigned long NumberOfPaths = 100000;
+    
+    double LowerLevel = 100;
+    double UpperLevel = 120;
+   
+    
+    PayOffDoubleDigital payOffDD(LowerLevel,UpperLevel);
+    
+    
+    double result = SimpleMonteCarlo2(payOffDD, Expiry, Spot, Vol, r, NumberOfPaths);
+
+    
+    //From another book - price has to be around "Call Price : 10.4506"
+    //From another book - price has to be around "Put Price : 5.57352"
+    //From another book - price has to be around "Options Price:   0.32009"
+    
+    std::cout<<"Double Digital price with simple MC : "<<result<<std::endl;
+
+    
+    return 0;
+}
+
+
+
+
 int main() {
     
 //    testingSimpleMC1();
 //    testingSimpleMC2();
-    testingSimpleMC2_otherPayOff();
+//    testingSimpleMC2_otherPayOff();
+//    testingSimpleMC2_otherPayOff_pointer();
+    testingSimpleMC2_doubleDigital();
     
     
     return 0;

@@ -37,6 +37,20 @@ private:
     
 };
 
+class PayOffDoubleDigital : public PayOff {
+    
+public:
+    PayOffDoubleDigital(double LowerLevel,
+                        double UpperLevel);
+    virtual double operator()(double Spot) const;
+    virtual ~PayOffDoubleDigital(){}
+    
+private:
+    double LowerLevel;
+    double UpperLevel;
+};
+
+
 
 
 #endif

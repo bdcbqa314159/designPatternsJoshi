@@ -53,6 +53,9 @@ void init_PayOff(py::module &m){
     py::class_<PayOffPut> payoffPut(m, "PayOffPut", payoff);
     payoffPut.def(py::init<double &>());
     
+    py::class_<PayOffDoubleDigital> payoffDD(m, "PayOffDD", payoff);
+    payoffDD.def(py::init<double &, double &>());
+
 }
 
 
