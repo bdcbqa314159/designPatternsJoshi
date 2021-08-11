@@ -1,11 +1,11 @@
 #include "../include/dpJoshi_bits/payoff1.hpp"
 
-PayOff::PayOff(double Strike, OptionType TheOptionsType)
+PayOff1::PayOff1(double Strike, OptionType TheOptionsType)
 : Strike(Strike), TheOptionsType(TheOptionsType){
     
 }
 
-double PayOff::operator()(double spot) const {
+double PayOff1::operator()(double spot) const {
     
     switch (TheOptionsType) {
         case call:

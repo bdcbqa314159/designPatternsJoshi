@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.o.d"
   "CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o"
   "CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o.d"
+  "CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o"
+  "CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o.d"
   "CMakeFiles/dpJoshi.dir/cpp/src/random1.cpp.o"
   "CMakeFiles/dpJoshi.dir/cpp/src/random1.cpp.o.d"
   "CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.o"

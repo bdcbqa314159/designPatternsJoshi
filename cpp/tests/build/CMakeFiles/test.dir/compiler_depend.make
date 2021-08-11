@@ -232,7 +232,11 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
   /usr/local/include/dpJoshi_bits/simpleMC.hpp \
-  /usr/local/include/dpJoshi_bits/random1.hpp
+  /usr/local/include/dpJoshi_bits/random1.hpp \
+  /usr/local/include/dpJoshi_bits/payoff1.hpp \
+  /usr/local/include/dpJoshi_bits/payoff2.hpp \
+  /usr/local/include/dpJoshi_bits/payoff1.hpp \
+  /usr/local/include/dpJoshi_bits/payoff2.hpp
 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h:
@@ -543,6 +547,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h:
 
+/usr/local/include/dpJoshi_bits/payoff1.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit:
@@ -634,6 +640,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_endian.h:
+
+/usr/local/include/dpJoshi_bits/payoff2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h:
 

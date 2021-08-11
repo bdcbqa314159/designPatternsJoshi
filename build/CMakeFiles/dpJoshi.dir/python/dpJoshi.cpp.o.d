@@ -172,7 +172,9 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoff2.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoff1.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoff2.hpp \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h \

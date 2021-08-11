@@ -3,11 +3,11 @@
 #include <algorithm>
 #include <string>
 
-class PayOff {
+class PayOff1 {
     
 public:
     enum OptionType {call, put};
-    PayOff(double Strike, OptionType TheOptionType);
+    PayOff1(double Strike, OptionType TheOptionType);
     double operator()(double Spot) const;
 private:
     double Strike;
