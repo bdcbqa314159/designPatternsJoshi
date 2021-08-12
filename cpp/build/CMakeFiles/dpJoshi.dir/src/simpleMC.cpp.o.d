@@ -173,4 +173,8 @@ CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoff2.hpp \
-  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla1.hpp
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoff3.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla1.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla2.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla3.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoffBridge.hpp

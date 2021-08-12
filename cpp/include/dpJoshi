@@ -7,5 +7,9 @@
 #include "dpJoshi_bits/payoff1.hpp"
 #include "dpJoshi_bits/payoff2.hpp"
 #include "dpJoshi_bits/vanilla1.hpp"
+#include "dpJoshi_bits/payoff3.hpp"
+#include "dpJoshi_bits/vanilla2.hpp"
+#include "dpJoshi_bits/payoffBridge.hpp"
+#include "dpJoshi_bits/vanilla3.hpp"
 
 #endif

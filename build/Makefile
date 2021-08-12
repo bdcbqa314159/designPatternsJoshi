@@ -246,6 +246,30 @@ cpp/src/payoff2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.s
 .PHONY : cpp/src/payoff2.cpp.s
 
+cpp/src/payoff3.o: cpp/src/payoff3.cpp.o
+.PHONY : cpp/src/payoff3.o
+
+# target to build an object file
+cpp/src/payoff3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoff3.cpp.o
+.PHONY : cpp/src/payoff3.cpp.o
+
+cpp/src/payoff3.i: cpp/src/payoff3.cpp.i
+.PHONY : cpp/src/payoff3.i
+
+# target to preprocess a source file
+cpp/src/payoff3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoff3.cpp.i
+.PHONY : cpp/src/payoff3.cpp.i
+
+cpp/src/payoff3.s: cpp/src/payoff3.cpp.s
+.PHONY : cpp/src/payoff3.s
+
+# target to generate assembly for a file
+cpp/src/payoff3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoff3.cpp.s
+.PHONY : cpp/src/payoff3.cpp.s
+
 cpp/src/random1.o: cpp/src/random1.cpp.o
 .PHONY : cpp/src/random1.o
 
@@ -318,6 +342,30 @@ cpp/src/vanilla1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla1.cpp.s
 .PHONY : cpp/src/vanilla1.cpp.s
 
+cpp/src/vanilla2.o: cpp/src/vanilla2.cpp.o
+.PHONY : cpp/src/vanilla2.o
+
+# target to build an object file
+cpp/src/vanilla2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla2.cpp.o
+.PHONY : cpp/src/vanilla2.cpp.o
+
+cpp/src/vanilla2.i: cpp/src/vanilla2.cpp.i
+.PHONY : cpp/src/vanilla2.i
+
+# target to preprocess a source file
+cpp/src/vanilla2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla2.cpp.i
+.PHONY : cpp/src/vanilla2.cpp.i
+
+cpp/src/vanilla2.s: cpp/src/vanilla2.cpp.s
+.PHONY : cpp/src/vanilla2.s
+
+# target to generate assembly for a file
+cpp/src/vanilla2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla2.cpp.s
+.PHONY : cpp/src/vanilla2.cpp.s
+
 python/designPatternsJoshi.o: python/designPatternsJoshi.cpp.o
 .PHONY : python/designPatternsJoshi.o
 
@@ -388,6 +436,9 @@ help:
 	@echo "... cpp/src/payoff2.o"
 	@echo "... cpp/src/payoff2.i"
 	@echo "... cpp/src/payoff2.s"
+	@echo "... cpp/src/payoff3.o"
+	@echo "... cpp/src/payoff3.i"
+	@echo "... cpp/src/payoff3.s"
 	@echo "... cpp/src/random1.o"
 	@echo "... cpp/src/random1.i"
 	@echo "... cpp/src/random1.s"
@@ -397,6 +448,9 @@ help:
 	@echo "... cpp/src/vanilla1.o"
 	@echo "... cpp/src/vanilla1.i"
 	@echo "... cpp/src/vanilla1.s"
+	@echo "... cpp/src/vanilla2.o"
+	@echo "... cpp/src/vanilla2.i"
+	@echo "... cpp/src/vanilla2.s"
 	@echo "... python/designPatternsJoshi.o"
 	@echo "... python/designPatternsJoshi.i"
 	@echo "... python/designPatternsJoshi.s"

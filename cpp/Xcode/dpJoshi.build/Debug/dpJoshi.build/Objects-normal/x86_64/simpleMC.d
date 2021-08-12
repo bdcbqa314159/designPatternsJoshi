@@ -4,4 +4,6 @@ dependencies: \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./random1.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoff1.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoff2.hpp \
-  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla1.hpp
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoff3.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla1.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla2.hpp

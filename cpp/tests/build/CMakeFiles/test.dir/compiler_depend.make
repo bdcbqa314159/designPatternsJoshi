@@ -235,13 +235,25 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/dpJoshi_bits/random1.hpp \
   /usr/local/include/dpJoshi_bits/payoff1.hpp \
   /usr/local/include/dpJoshi_bits/payoff2.hpp \
+  /usr/local/include/dpJoshi_bits/payoff3.hpp \
   /usr/local/include/dpJoshi_bits/vanilla1.hpp \
+  /usr/local/include/dpJoshi_bits/vanilla2.hpp \
+  /usr/local/include/dpJoshi_bits/vanilla3.hpp \
+  /usr/local/include/dpJoshi_bits/payoffBridge.hpp \
   /usr/local/include/dpJoshi_bits/payoff1.hpp \
   /usr/local/include/dpJoshi_bits/payoff2.hpp \
-  /usr/local/include/dpJoshi_bits/vanilla1.hpp
+  /usr/local/include/dpJoshi_bits/vanilla1.hpp \
+  /usr/local/include/dpJoshi_bits/payoff3.hpp \
+  /usr/local/include/dpJoshi_bits/vanilla2.hpp \
+  /usr/local/include/dpJoshi_bits/payoffBridge.hpp \
+  /usr/local/include/dpJoshi_bits/vanilla3.hpp
 
+
+/usr/local/include/dpJoshi_bits/vanilla3.hpp:
 
 /usr/local/include/dpJoshi_bits/vanilla1.hpp:
+
+/usr/local/include/dpJoshi_bits/payoff3.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h:
 
@@ -435,6 +447,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/errno.h:
 
+/usr/local/include/dpJoshi_bits/vanilla2.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint:
@@ -468,6 +482,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h:
+
+/usr/local/include/dpJoshi_bits/payoffBridge.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/alloca.h:
 

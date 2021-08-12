@@ -24,6 +24,11 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/payoff1.hpp
     ${PROJECT_INCLUDE_DIR}/payoff2.hpp
     ${PROJECT_INCLUDE_DIR}/vanilla1.hpp
+    ${PROJECT_INCLUDE_DIR}/payoff3.hpp
+    ${PROJECT_INCLUDE_DIR}/vanilla2.hpp
+    ${PROJECT_INCLUDE_DIR}/payoffBridge.hpp
+    ${PROJECT_INCLUDE_DIR}/vanilla3.hpp
+
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/random1.cpp
@@ -31,6 +36,11 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/payoff1.cpp
     ${PROJECT_SOURCE_DIR}/payoff2.cpp
     ${PROJECT_SOURCE_DIR}/vanilla1.cpp
+    ${PROJECT_SOURCE_DIR}/payoff3.cpp
+    ${PROJECT_SOURCE_DIR}/vanilla2.cpp
+    ${PROJECT_SOURCE_DIR}/payoffBridge.cpp
+    ${PROJECT_SOURCE_DIR}/vanilla3.cpp
+    
 )
 
 # Set up such that XCode organizes the files correctly

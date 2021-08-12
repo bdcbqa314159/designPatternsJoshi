@@ -246,6 +246,54 @@ src/payoff2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff2.cpp.s
 .PHONY : src/payoff2.cpp.s
 
+src/payoff3.o: src/payoff3.cpp.o
+.PHONY : src/payoff3.o
+
+# target to build an object file
+src/payoff3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff3.cpp.o
+.PHONY : src/payoff3.cpp.o
+
+src/payoff3.i: src/payoff3.cpp.i
+.PHONY : src/payoff3.i
+
+# target to preprocess a source file
+src/payoff3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff3.cpp.i
+.PHONY : src/payoff3.cpp.i
+
+src/payoff3.s: src/payoff3.cpp.s
+.PHONY : src/payoff3.s
+
+# target to generate assembly for a file
+src/payoff3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoff3.cpp.s
+.PHONY : src/payoff3.cpp.s
+
+src/payoffBridge.o: src/payoffBridge.cpp.o
+.PHONY : src/payoffBridge.o
+
+# target to build an object file
+src/payoffBridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffBridge.cpp.o
+.PHONY : src/payoffBridge.cpp.o
+
+src/payoffBridge.i: src/payoffBridge.cpp.i
+.PHONY : src/payoffBridge.i
+
+# target to preprocess a source file
+src/payoffBridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffBridge.cpp.i
+.PHONY : src/payoffBridge.cpp.i
+
+src/payoffBridge.s: src/payoffBridge.cpp.s
+.PHONY : src/payoffBridge.s
+
+# target to generate assembly for a file
+src/payoffBridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffBridge.cpp.s
+.PHONY : src/payoffBridge.cpp.s
+
 src/random1.o: src/random1.cpp.o
 .PHONY : src/random1.o
 
@@ -318,6 +366,54 @@ src/vanilla1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla1.cpp.s
 .PHONY : src/vanilla1.cpp.s
 
+src/vanilla2.o: src/vanilla2.cpp.o
+.PHONY : src/vanilla2.o
+
+# target to build an object file
+src/vanilla2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla2.cpp.o
+.PHONY : src/vanilla2.cpp.o
+
+src/vanilla2.i: src/vanilla2.cpp.i
+.PHONY : src/vanilla2.i
+
+# target to preprocess a source file
+src/vanilla2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla2.cpp.i
+.PHONY : src/vanilla2.cpp.i
+
+src/vanilla2.s: src/vanilla2.cpp.s
+.PHONY : src/vanilla2.s
+
+# target to generate assembly for a file
+src/vanilla2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla2.cpp.s
+.PHONY : src/vanilla2.cpp.s
+
+src/vanilla3.o: src/vanilla3.cpp.o
+.PHONY : src/vanilla3.o
+
+# target to build an object file
+src/vanilla3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla3.cpp.o
+.PHONY : src/vanilla3.cpp.o
+
+src/vanilla3.i: src/vanilla3.cpp.i
+.PHONY : src/vanilla3.i
+
+# target to preprocess a source file
+src/vanilla3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla3.cpp.i
+.PHONY : src/vanilla3.cpp.i
+
+src/vanilla3.s: src/vanilla3.cpp.s
+.PHONY : src/vanilla3.s
+
+# target to generate assembly for a file
+src/vanilla3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/vanilla3.cpp.s
+.PHONY : src/vanilla3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -340,6 +436,12 @@ help:
 	@echo "... src/payoff2.o"
 	@echo "... src/payoff2.i"
 	@echo "... src/payoff2.s"
+	@echo "... src/payoff3.o"
+	@echo "... src/payoff3.i"
+	@echo "... src/payoff3.s"
+	@echo "... src/payoffBridge.o"
+	@echo "... src/payoffBridge.i"
+	@echo "... src/payoffBridge.s"
 	@echo "... src/random1.o"
 	@echo "... src/random1.i"
 	@echo "... src/random1.s"
@@ -349,6 +451,12 @@ help:
 	@echo "... src/vanilla1.o"
 	@echo "... src/vanilla1.i"
 	@echo "... src/vanilla1.s"
+	@echo "... src/vanilla2.o"
+	@echo "... src/vanilla2.i"
+	@echo "... src/vanilla2.s"
+	@echo "... src/vanilla3.o"
+	@echo "... src/vanilla3.i"
+	@echo "... src/vanilla3.s"
 .PHONY : help
 
 
