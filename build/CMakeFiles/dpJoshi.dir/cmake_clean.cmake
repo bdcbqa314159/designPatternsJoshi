@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.o"
   "CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.o.d"
+  "CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.o"
+  "CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.o.d"
   "CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o"
   "CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o.d"
   "CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o"

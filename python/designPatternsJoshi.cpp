@@ -4,6 +4,7 @@ namespace py = pybind11;
 
 void init_MC(py::module &);
 void init_PayOff(py::module &);
+void init_Parameters(py::module &);
 
 
 namespace dpj {
@@ -14,6 +15,7 @@ PYBIND11_MODULE(dpJoshi, m) {
 
     init_MC(m);
     init_PayOff(m);
+    init_Parameters(m);
 
 	}
 

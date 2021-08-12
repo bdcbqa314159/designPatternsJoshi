@@ -198,6 +198,30 @@ cpp/src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.s
 .PHONY : cpp/src/intro.cpp.s
 
+cpp/src/parameters.o: cpp/src/parameters.cpp.o
+.PHONY : cpp/src/parameters.o
+
+# target to build an object file
+cpp/src/parameters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.o
+.PHONY : cpp/src/parameters.cpp.o
+
+cpp/src/parameters.i: cpp/src/parameters.cpp.i
+.PHONY : cpp/src/parameters.i
+
+# target to preprocess a source file
+cpp/src/parameters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.i
+.PHONY : cpp/src/parameters.cpp.i
+
+cpp/src/parameters.s: cpp/src/parameters.cpp.s
+.PHONY : cpp/src/parameters.s
+
+# target to generate assembly for a file
+cpp/src/parameters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.s
+.PHONY : cpp/src/parameters.cpp.s
+
 cpp/src/payoff1.o: cpp/src/payoff1.cpp.o
 .PHONY : cpp/src/payoff1.o
 
@@ -478,6 +502,9 @@ help:
 	@echo "... cpp/src/intro.o"
 	@echo "... cpp/src/intro.i"
 	@echo "... cpp/src/intro.s"
+	@echo "... cpp/src/parameters.o"
+	@echo "... cpp/src/parameters.i"
+	@echo "... cpp/src/parameters.s"
 	@echo "... cpp/src/payoff1.o"
 	@echo "... cpp/src/payoff1.i"
 	@echo "... cpp/src/payoff1.s"

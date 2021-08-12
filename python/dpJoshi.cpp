@@ -6,6 +6,7 @@
 #include "../cpp/include/dpJoshi_bits/vanilla2.hpp"
 #include "../cpp/include/dpJoshi_bits/payoffBridge.hpp"
 #include "../cpp/include/dpJoshi_bits/vanilla3.hpp"
+#include "../cpp/include/dpJoshi_bits/parameters.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -34,8 +35,29 @@ public:
             // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
             return std::shared_ptr<PayOff3>(keep_python_state_alive, ptr);
         }
+
 };
 
+class PyParametersInner : public ParametersInner {
+public:
+    using ParametersInner::ParametersInner; // Inherit constructors
+
+    std::shared_ptr<ParametersInner> clone() const override {
+            auto self = py::cast(this);
+            auto cloned = self.attr("clone")();
+
+            auto keep_python_state_alive = std::make_shared<py::object>(cloned);
+            auto ptr = cloned.cast<PyParametersInner*>();
+
+            // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
+            return std::shared_ptr<ParametersInner>(keep_python_state_alive, ptr);
+        }
+    
+    double Integral(double t1, double t2) const override { PYBIND11_OVERLOAD_PURE(double, PyParametersInner, Integral, t1, t2); }
+    
+    double IntegralSquare(double t1, double t2) const override { PYBIND11_OVERLOAD_PURE(double, PyParametersInner, IntegralSquare, t1, t2); }
+    
+};
 
 void init_PayOff(py::module &m){
     
@@ -111,6 +133,19 @@ void init_MC(py::module &m){
     m.def("simpleMC3", &SimpleMonteCarlo3);
     m.def("simpleMC4", &SimpleMonteCarlo4);
     m.def("simpleMC5", &SimpleMonteCarlo5);
+    m.def("simpleMC6", &SimpleMonteCarlo6);
 }
 
 
+void init_Parameters(py::module &m){
+    
+    py::class_<ParametersInner, PyParametersInner> parametersInner(m, "ParametersIner");
+    parametersInner.def(py::init<>());
+
+    py::class_<ParametersConstant> parametersConstant(m, "ParametersConstant", parametersInner);
+    parametersConstant.def(py::init<double &>());
+    
+    py::class_<Parameters> parameters(m, "Parameters");
+    parameters.def(py::init<const ParametersInner &>());
+    parameters.def(py::init<const Parameters &>());
+}

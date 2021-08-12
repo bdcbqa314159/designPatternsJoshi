@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp" "CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.o" "gcc" "CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.o.d"
+  "/Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp" "CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.o" "gcc" "CMakeFiles/dpJoshi.dir/cpp/src/parameters.cpp.o.d"
   "/Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp" "CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o" "gcc" "CMakeFiles/dpJoshi.dir/cpp/src/payoff1.cpp.o.d"
   "/Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp" "CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o" "gcc" "CMakeFiles/dpJoshi.dir/cpp/src/payoff2.cpp.o.d"
   "/Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp" "CMakeFiles/dpJoshi.dir/cpp/src/payoff3.cpp.o" "gcc" "CMakeFiles/dpJoshi.dir/cpp/src/payoff3.cpp.o.d"
