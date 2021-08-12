@@ -4,6 +4,8 @@
 #include "../cpp/include/dpJoshi_bits/payoff3.hpp"
 #include "../cpp/include/dpJoshi_bits/vanilla1.hpp"
 #include "../cpp/include/dpJoshi_bits/vanilla2.hpp"
+#include "../cpp/include/dpJoshi_bits/payoffBridge.hpp"
+#include "../cpp/include/dpJoshi_bits/vanilla3.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -88,7 +90,14 @@ void init_PayOff(py::module &m){
     py::class_<VanillaOption2> vanilla2(m, "Vanilla2");
     vanilla2.def(py::init<PayOff3 &, double &>());
     vanilla2.def(py::init<const VanillaOption2 &>());
-
+    
+    
+    py::class_<PayOffBridge> payoffBridge(m, "PayOffBridge");
+    payoffBridge.def(py::init<const PayOffBridge &>());
+    payoffBridge.def(py::init<const PayOff3 &>());
+    
+    py::class_<VanillaOption3> vanilla3(m, "Vanilla3");
+    vanilla3.def(py::init<const PayOffBridge &, double &>());
 }
 
 
@@ -101,6 +110,7 @@ void init_MC(py::module &m){
     
     m.def("simpleMC3", &SimpleMonteCarlo3);
     m.def("simpleMC4", &SimpleMonteCarlo4);
+    m.def("simpleMC5", &SimpleMonteCarlo5);
 }
 
 

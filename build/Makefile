@@ -270,6 +270,30 @@ cpp/src/payoff3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoff3.cpp.s
 .PHONY : cpp/src/payoff3.cpp.s
 
+cpp/src/payoffBridge.o: cpp/src/payoffBridge.cpp.o
+.PHONY : cpp/src/payoffBridge.o
+
+# target to build an object file
+cpp/src/payoffBridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoffBridge.cpp.o
+.PHONY : cpp/src/payoffBridge.cpp.o
+
+cpp/src/payoffBridge.i: cpp/src/payoffBridge.cpp.i
+.PHONY : cpp/src/payoffBridge.i
+
+# target to preprocess a source file
+cpp/src/payoffBridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoffBridge.cpp.i
+.PHONY : cpp/src/payoffBridge.cpp.i
+
+cpp/src/payoffBridge.s: cpp/src/payoffBridge.cpp.s
+.PHONY : cpp/src/payoffBridge.s
+
+# target to generate assembly for a file
+cpp/src/payoffBridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/payoffBridge.cpp.s
+.PHONY : cpp/src/payoffBridge.cpp.s
+
 cpp/src/random1.o: cpp/src/random1.cpp.o
 .PHONY : cpp/src/random1.o
 
@@ -366,6 +390,30 @@ cpp/src/vanilla2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla2.cpp.s
 .PHONY : cpp/src/vanilla2.cpp.s
 
+cpp/src/vanilla3.o: cpp/src/vanilla3.cpp.o
+.PHONY : cpp/src/vanilla3.o
+
+# target to build an object file
+cpp/src/vanilla3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla3.cpp.o
+.PHONY : cpp/src/vanilla3.cpp.o
+
+cpp/src/vanilla3.i: cpp/src/vanilla3.cpp.i
+.PHONY : cpp/src/vanilla3.i
+
+# target to preprocess a source file
+cpp/src/vanilla3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla3.cpp.i
+.PHONY : cpp/src/vanilla3.cpp.i
+
+cpp/src/vanilla3.s: cpp/src/vanilla3.cpp.s
+.PHONY : cpp/src/vanilla3.s
+
+# target to generate assembly for a file
+cpp/src/vanilla3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/vanilla3.cpp.s
+.PHONY : cpp/src/vanilla3.cpp.s
+
 python/designPatternsJoshi.o: python/designPatternsJoshi.cpp.o
 .PHONY : python/designPatternsJoshi.o
 
@@ -439,6 +487,9 @@ help:
 	@echo "... cpp/src/payoff3.o"
 	@echo "... cpp/src/payoff3.i"
 	@echo "... cpp/src/payoff3.s"
+	@echo "... cpp/src/payoffBridge.o"
+	@echo "... cpp/src/payoffBridge.i"
+	@echo "... cpp/src/payoffBridge.s"
 	@echo "... cpp/src/random1.o"
 	@echo "... cpp/src/random1.i"
 	@echo "... cpp/src/random1.s"
@@ -451,6 +502,9 @@ help:
 	@echo "... cpp/src/vanilla2.o"
 	@echo "... cpp/src/vanilla2.i"
 	@echo "... cpp/src/vanilla2.s"
+	@echo "... cpp/src/vanilla3.o"
+	@echo "... cpp/src/vanilla3.i"
+	@echo "... cpp/src/vanilla3.s"
 	@echo "... python/designPatternsJoshi.o"
 	@echo "... python/designPatternsJoshi.i"
 	@echo "... python/designPatternsJoshi.s"
