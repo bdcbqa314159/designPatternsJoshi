@@ -1,6 +1,7 @@
 #ifndef PAYOFF3_H
 #define PAYOFF3_H
 #include <algorithm>
+#include <memory.h>
 
 class PayOff3 {
     

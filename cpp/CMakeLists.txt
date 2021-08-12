@@ -28,6 +28,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/vanilla2.hpp
     ${PROJECT_INCLUDE_DIR}/payoffBridge.hpp
     ${PROJECT_INCLUDE_DIR}/vanilla3.hpp
+    ${PROJECT_INCLUDE_DIR}/parameters.hpp
 
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
@@ -40,6 +41,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/vanilla2.cpp
     ${PROJECT_SOURCE_DIR}/payoffBridge.cpp
     ${PROJECT_SOURCE_DIR}/vanilla3.cpp
+    ${PROJECT_SOURCE_DIR}/parameters.cpp
     
 )
 
