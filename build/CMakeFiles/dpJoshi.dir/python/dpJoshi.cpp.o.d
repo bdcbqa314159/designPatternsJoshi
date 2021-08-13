@@ -193,6 +193,9 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/vanilla3.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/parameters.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/mcStatistics.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/wrapper.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/convergenceTable.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./wrapper.hpp \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h \

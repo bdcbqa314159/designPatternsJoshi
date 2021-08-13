@@ -30,6 +30,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/vanilla3.hpp
     ${PROJECT_INCLUDE_DIR}/parameters.hpp
     ${PROJECT_INCLUDE_DIR}/mcStatistics.hpp
+    ${PROJECT_INCLUDE_DIR}/wrapper.hpp
+    ${PROJECT_INCLUDE_DIR}/convergenceTable.hpp
 
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
@@ -44,6 +46,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/vanilla3.cpp
     ${PROJECT_SOURCE_DIR}/parameters.cpp
     ${PROJECT_SOURCE_DIR}/mcStatistics.cpp
+    ${PROJECT_SOURCE_DIR}/convergenceTable.cpp
     
 )
 

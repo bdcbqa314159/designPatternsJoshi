@@ -8,6 +8,8 @@
 #include "../cpp/include/dpJoshi_bits/vanilla3.hpp"
 #include "../cpp/include/dpJoshi_bits/parameters.hpp"
 #include "../cpp/include/dpJoshi_bits/mcStatistics.hpp"
+#include "../cpp/include/dpJoshi_bits/wrapper.hpp"
+#include "../cpp/include/dpJoshi_bits/convergenceTable.hpp"
 
 
 #include <vector>
@@ -179,6 +181,15 @@ void init_Parameters(py::module &m){
     parameters.def(py::init<const Parameters &>());
 }
 
+void init_Wrapper(py::module &m){
+    
+    py::class_<Wrapper<StatisticsMC>> wrapperStats(m, "WrapperStats");
+    wrapperStats.def(py::init<const StatisticsMC &>());
+    wrapperStats.def(py::init<const Wrapper<StatisticsMC> &>());
+    
+}
+
+
 
 void init_MCStatistics(py::module &m){
     
@@ -188,6 +199,12 @@ void init_MCStatistics(py::module &m){
     py::class_<StatisticsMean> statisticsmean(m, "StatisticsMean", statisticsmc);
     statisticsmean.def(py::init<>());
     statisticsmean.def("GetResultSoFar", [](StatisticsMean &self){py::array out = py::cast(self.GetResultsSoFar());
+        return out;
+    });
+    
+    py::class_<ConvergenceTable> convergencetable(m, "ConvergenceTable", statisticsmc);
+    convergencetable.def(py::init<const Wrapper<StatisticsMC> &>());
+    convergencetable.def("GetResultSoFar", [](ConvergenceTable &self){py::array out = py::cast(self.GetResultsSoFar());
         return out;
     });
     

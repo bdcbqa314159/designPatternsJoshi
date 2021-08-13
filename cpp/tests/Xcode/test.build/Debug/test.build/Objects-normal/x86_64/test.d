@@ -21,4 +21,7 @@ dependencies: \
   /usr/local/include/dpJoshi_bits/payoffBridge.hpp \
   /usr/local/include/dpJoshi_bits/vanilla3.hpp \
   /usr/local/include/dpJoshi_bits/parameters.hpp \
-  /usr/local/include/dpJoshi_bits/mcStatistics.hpp
+  /usr/local/include/dpJoshi_bits/mcStatistics.hpp \
+  /usr/local/include/dpJoshi_bits/wrapper.hpp \
+  /usr/local/include/dpJoshi_bits/convergenceTable.hpp \
+  /usr/local/include/dpJoshi_bits/./wrapper.hpp

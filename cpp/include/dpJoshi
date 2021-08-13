@@ -13,5 +13,7 @@
 #include "dpJoshi_bits/vanilla3.hpp"
 #include "dpJoshi_bits/parameters.hpp"
 #include "dpJoshi_bits/mcStatistics.hpp"
+#include "dpJoshi_bits/wrapper.hpp"
+#include "dpJoshi_bits/convergenceTable.hpp"
 
 #endif
