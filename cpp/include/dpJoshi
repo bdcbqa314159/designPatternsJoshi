@@ -12,5 +12,6 @@
 #include "dpJoshi_bits/payoffBridge.hpp"
 #include "dpJoshi_bits/vanilla3.hpp"
 #include "dpJoshi_bits/parameters.hpp"
+#include "dpJoshi_bits/mcStatistics.hpp"
 
 #endif

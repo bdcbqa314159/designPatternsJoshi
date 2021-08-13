@@ -1,6 +1,7 @@
 /usr/local/lib/libdpJoshi.dylib
 /usr/local/include/dpJoshi
 /usr/local/include/dpJoshi_bits/payoffBridge.hpp
+/usr/local/include/dpJoshi_bits/mcStatistics.hpp
 /usr/local/include/dpJoshi_bits/.DS_Store
 /usr/local/include/dpJoshi_bits/random1.hpp
 /usr/local/include/dpJoshi_bits/intro.hpp

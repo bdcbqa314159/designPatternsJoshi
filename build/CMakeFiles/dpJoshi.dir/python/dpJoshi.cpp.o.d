@@ -180,6 +180,10 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla3.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoffBridge.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./parameters.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./mcStatistics.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoff1.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoff2.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoff3.hpp \
@@ -188,6 +192,7 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoffBridge.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/vanilla3.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/parameters.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/mcStatistics.hpp \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h \
@@ -313,9 +318,6 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: \
   /Users/bernardocohen/opt/anaconda3/include/python3.8/tracemalloc.h \
   /Users/bernardocohen/opt/anaconda3/include/python3.8/frameobject.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/forward_list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__hash_table \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \

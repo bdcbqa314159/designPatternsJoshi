@@ -179,4 +179,8 @@ CMakeFiles/dpJoshi.dir/cpp/src/simpleMC.cpp.o: \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla2.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla3.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoffBridge.hpp \
-  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./parameters.hpp
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./parameters.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./mcStatistics.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer

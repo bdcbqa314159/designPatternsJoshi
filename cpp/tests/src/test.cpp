@@ -272,6 +272,52 @@ int testingSimpleMC6(){
 }
 
 
+int testingSimpleMC7(){
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    
+    unsigned long NumberOfPaths = 100000;
+    
+    double LowerLevel = 100;
+    double UpperLevel = 120;
+   
+    
+    PayOffDoubleDigital3 payOffDD(LowerLevel,UpperLevel);
+    VanillaOption3 theOption(payOffDD, Expiry);
+    ParametersConstant VolParam(Vol);
+    ParametersConstant rParam(r);
+    
+    StatisticsMean gatherer;
+    
+    
+    SimpleMonteCarlo7(theOption, Spot, VolParam, rParam, NumberOfPaths,gatherer);
+
+    
+    //From another book - price has to be around "Call Price : 10.4506"
+    //From another book - price has to be around "Put Price : 5.57352"
+    //From another book - price has to be around "Options Price:   0.32009"
+    
+    std::vector<std::vector<double> > results = gatherer.GetResultsSoFar();
+    
+    std::cout<<"For double Digital price the results are : "<<std::endl;
+    
+    for (unsigned long i = 0; i<results.size(); i++){
+        for (unsigned long j = 0; j<results.at(i).size(); j++){
+            
+            std::cout<<results.at(i).at(j)<<" ";
+        }
+        std::cout<<"\n";
+    }
+
+    return 0;
+    
+}
+
+
 
 int main() {
     
@@ -283,7 +329,8 @@ int main() {
 //    testingSimpleMC3_doubleDigital();
 //    testtingSimpleMC4();
 //    testtingSimpleMC5();
-    testingSimpleMC6();
+//    testingSimpleMC6();
+    testingSimpleMC7();
     
     
     return 0;

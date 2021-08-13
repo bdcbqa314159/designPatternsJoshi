@@ -198,6 +198,30 @@ cpp/src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/intro.cpp.s
 .PHONY : cpp/src/intro.cpp.s
 
+cpp/src/mcStatistics.o: cpp/src/mcStatistics.cpp.o
+.PHONY : cpp/src/mcStatistics.o
+
+# target to build an object file
+cpp/src/mcStatistics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/mcStatistics.cpp.o
+.PHONY : cpp/src/mcStatistics.cpp.o
+
+cpp/src/mcStatistics.i: cpp/src/mcStatistics.cpp.i
+.PHONY : cpp/src/mcStatistics.i
+
+# target to preprocess a source file
+cpp/src/mcStatistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/mcStatistics.cpp.i
+.PHONY : cpp/src/mcStatistics.cpp.i
+
+cpp/src/mcStatistics.s: cpp/src/mcStatistics.cpp.s
+.PHONY : cpp/src/mcStatistics.s
+
+# target to generate assembly for a file
+cpp/src/mcStatistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/mcStatistics.cpp.s
+.PHONY : cpp/src/mcStatistics.cpp.s
+
 cpp/src/parameters.o: cpp/src/parameters.cpp.o
 .PHONY : cpp/src/parameters.o
 
@@ -502,6 +526,9 @@ help:
 	@echo "... cpp/src/intro.o"
 	@echo "... cpp/src/intro.i"
 	@echo "... cpp/src/intro.s"
+	@echo "... cpp/src/mcStatistics.o"
+	@echo "... cpp/src/mcStatistics.i"
+	@echo "... cpp/src/mcStatistics.s"
 	@echo "... cpp/src/parameters.o"
 	@echo "... cpp/src/parameters.i"
 	@echo "... cpp/src/parameters.s"

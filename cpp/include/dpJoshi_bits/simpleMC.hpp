@@ -9,6 +9,7 @@
 #include "./vanilla2.hpp"
 #include "./vanilla3.hpp"
 #include "./parameters.hpp"
+#include "./mcStatistics.hpp"
 
 #include <cmath>
 
@@ -25,5 +26,7 @@ double SimpleMonteCarlo4(const VanillaOption2 &TheOption, double Spot, double Vo
 double SimpleMonteCarlo5(const VanillaOption3 &TheOption, double Spot, double Vol, double r, unsigned long NumberOfPaths);
 
 double SimpleMonteCarlo6(const VanillaOption3 &TheOption, double Spot, const Parameters &Vol, const Parameters &r, unsigned long NumberOfPaths);
+
+void SimpleMonteCarlo7(const VanillaOption3 &TheOption, double Spot, const Parameters &Vol, const Parameters &r, unsigned long NumberOfPaths, StatisticsMC &gatherer);
 
 #endif

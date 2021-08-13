@@ -7,10 +7,14 @@
 #include "../cpp/include/dpJoshi_bits/payoffBridge.hpp"
 #include "../cpp/include/dpJoshi_bits/vanilla3.hpp"
 #include "../cpp/include/dpJoshi_bits/parameters.hpp"
+#include "../cpp/include/dpJoshi_bits/mcStatistics.hpp"
 
+
+#include <vector>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 #include <pybind11/numpy.h>
+
 
 namespace py = pybind11;
 
@@ -57,6 +61,30 @@ public:
     
     double IntegralSquare(double t1, double t2) const override { PYBIND11_OVERLOAD_PURE(double, PyParametersInner, IntegralSquare, t1, t2); }
     
+};
+
+class PyStatisticsMC: public StatisticsMC {
+    
+public:
+    using StatisticsMC::StatisticsMC;
+    
+    void DumpOneResult(double result) override {
+        PYBIND11_OVERLOAD_PURE(void, PyStatisticsMC, DumpOneResult, result);
+    }
+    
+    std::vector<std::vector <double>> GetResultsSoFar() const override {PYBIND11_OVERLOAD_PURE(std::vector<std::vector <double>>, PyStatisticsMC, GetResultsSoFar, );
+    }
+    
+    std::shared_ptr<StatisticsMC> clone() const override {
+            auto self = py::cast(this);
+            auto cloned = self.attr("clone")();
+
+            auto keep_python_state_alive = std::make_shared<py::object>(cloned);
+            auto ptr = cloned.cast<PyStatisticsMC*>();
+
+            // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
+            return std::shared_ptr<StatisticsMC>(keep_python_state_alive, ptr);
+        }
 };
 
 void init_PayOff(py::module &m){
@@ -134,12 +162,13 @@ void init_MC(py::module &m){
     m.def("simpleMC4", &SimpleMonteCarlo4);
     m.def("simpleMC5", &SimpleMonteCarlo5);
     m.def("simpleMC6", &SimpleMonteCarlo6);
+    m.def("simpleMC7", &SimpleMonteCarlo7);
 }
 
 
 void init_Parameters(py::module &m){
     
-    py::class_<ParametersInner, PyParametersInner> parametersInner(m, "ParametersIner");
+    py::class_<ParametersInner, PyParametersInner> parametersInner(m, "ParametersInner");
     parametersInner.def(py::init<>());
 
     py::class_<ParametersConstant> parametersConstant(m, "ParametersConstant", parametersInner);
@@ -148,4 +177,18 @@ void init_Parameters(py::module &m){
     py::class_<Parameters> parameters(m, "Parameters");
     parameters.def(py::init<const ParametersInner &>());
     parameters.def(py::init<const Parameters &>());
+}
+
+
+void init_MCStatistics(py::module &m){
+    
+    py::class_<StatisticsMC, PyStatisticsMC> statisticsmc(m, "StatisticsMC");
+    statisticsmc.def(py::init<>());
+
+    py::class_<StatisticsMean> statisticsmean(m, "StatisticsMean", statisticsmc);
+    statisticsmean.def(py::init<>());
+    statisticsmean.def("GetResultSoFar", [](StatisticsMean &self){py::array out = py::cast(self.GetResultsSoFar());
+        return out;
+    });
+    
 }
