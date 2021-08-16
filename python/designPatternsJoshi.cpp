@@ -7,6 +7,7 @@ void init_PayOff(py::module &);
 void init_Parameters(py::module &);
 void init_Wrapper(py::module &);
 void init_MCStatistics(py::module &);
+void init_Random(py::module &);
 
 
 namespace dpj {
@@ -20,6 +21,7 @@ PYBIND11_MODULE(dpJoshi, m) {
     init_Parameters(m);
     init_Wrapper(m);
     init_MCStatistics(m);
+    init_Random(m);
 
 	}
 

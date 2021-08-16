@@ -10,6 +10,10 @@
 #include "../cpp/include/dpJoshi_bits/mcStatistics.hpp"
 #include "../cpp/include/dpJoshi_bits/wrapper.hpp"
 #include "../cpp/include/dpJoshi_bits/convergenceTable.hpp"
+#include "../cpp/include/dpJoshi_bits/random2.hpp"
+#include "../cpp/include/dpJoshi_bits/antithetic.hpp"
+#include "../cpp/include/dpJoshi_bits/parkMiller.hpp"
+#include "../cpp/include/dpJoshi_bits/arrays.hpp"
 
 
 #include <vector>
@@ -92,6 +96,42 @@ public:
         }
 };
 
+class PyRandomBase: public RandomBase {
+    
+public:
+    using RandomBase::RandomBase;
+    
+    std::shared_ptr<RandomBase> clone() const override {
+            auto self = py::cast(this);
+            auto cloned = self.attr("clone")();
+
+            auto keep_python_state_alive = std::make_shared<py::object>(cloned);
+            auto ptr = cloned.cast<PyRandomBase*>();
+
+            // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
+            return std::shared_ptr<RandomBase>(keep_python_state_alive, ptr);
+        }
+    
+    void GetUniforms(MJArray & varitates) override {
+        PYBIND11_OVERLOAD_PURE(void, PyRandomBase, GetUniforms, varitates);
+    }
+    
+    void Skip(unsigned long numberOfPaths) override {
+        PYBIND11_OVERLOAD_PURE(void, PyRandomBase, Skip, numberOfPaths);
+    }
+    
+    void SetSeed(unsigned long Seed) override {
+        PYBIND11_OVERLOAD_PURE(void, PyRandomBase, SetSeed, Seed);
+    }
+    
+    void Reset() override {
+        PYBIND11_OVERLOAD_PURE(void, PyRandomBase, Reset,);
+    }
+    
+};
+
+
+
 void init_PayOff(py::module &m){
     
     py::class_<PayOff1> payoff1(m, "PayOff1");
@@ -168,6 +208,7 @@ void init_MC(py::module &m){
     m.def("simpleMC5", &SimpleMonteCarlo5);
     m.def("simpleMC6", &SimpleMonteCarlo6);
     m.def("simpleMC7", &SimpleMonteCarlo7);
+    m.def("simpleMC8", &SimpleMonteCarlo8);
 }
 
 
@@ -191,6 +232,11 @@ void init_Wrapper(py::module &m){
     wrapperStats.def(py::init<const StatisticsMC &>());
     wrapperStats.def(py::init<const Wrapper<StatisticsMC> &>());
     
+    py::class_<Wrapper<RandomBase>> wrapperRandom(m, "WrapperRandom");
+    wrapperRandom.def(py::init<const RandomBase &>());
+    wrapperRandom.def(py::init<const Wrapper<RandomBase> &>());
+    
+    
 }
 
 
@@ -210,5 +256,19 @@ void init_MCStatistics(py::module &m){
     convergencetable.def("GetResultSoFar", [](ConvergenceTable &self){py::array out = py::cast(self.GetResultsSoFar());
         return out;
     });
+    
+}
+
+void init_Random(py::module &m){
+    
+    py::class_<RandomBase, PyRandomBase> randombase(m, "RandomBase");
+    randombase.def(py::init<unsigned long &>());
+
+    py::class_<RandomParkMiller> randomparkmiller(m, "RandomParkMiller", randombase);
+    randomparkmiller.def(py::init<unsigned long &, unsigned long &>());
+    
+    
+    py::class_<Antithetic> antithetic(m, "Antithetic", randombase);
+    antithetic.def(py::init<const Wrapper<RandomBase> &>());
     
 }
