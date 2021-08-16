@@ -20,11 +20,13 @@
 
 namespace py = pybind11;
 
+
 class PyPayOff : public PayOff {
 public:
     using PayOff::PayOff; // Inherit constructors
     double operator()(double Spot) const override { PYBIND11_OVERLOAD_PURE_NAME(double, PayOff, "__call__", operator(), Spot); }
 };
+
 
 class PyPayOff3 : public PayOff3 {
 public:
@@ -43,6 +45,7 @@ public:
         }
 
 };
+
 
 class PyParametersInner : public ParametersInner {
 public:
@@ -181,6 +184,7 @@ void init_Parameters(py::module &m){
     parameters.def(py::init<const Parameters &>());
 }
 
+
 void init_Wrapper(py::module &m){
     
     py::class_<Wrapper<StatisticsMC>> wrapperStats(m, "WrapperStats");
@@ -188,7 +192,6 @@ void init_Wrapper(py::module &m){
     wrapperStats.def(py::init<const Wrapper<StatisticsMC> &>());
     
 }
-
 
 
 void init_MCStatistics(py::module &m){

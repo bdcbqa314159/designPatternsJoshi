@@ -13,6 +13,10 @@ dependencies: \
   /usr/local/include/dpJoshi_bits/./payoffBridge.hpp \
   /usr/local/include/dpJoshi_bits/./parameters.hpp \
   /usr/local/include/dpJoshi_bits/./mcStatistics.hpp \
+  /usr/local/include/dpJoshi_bits/./random2.hpp \
+  /usr/local/include/dpJoshi_bits/./arrays.hpp \
+  /usr/local/include/dpJoshi_bits/./antithetic.hpp \
+  /usr/local/include/dpJoshi_bits/./wrapper.hpp \
   /usr/local/include/dpJoshi_bits/payoff1.hpp \
   /usr/local/include/dpJoshi_bits/payoff2.hpp \
   /usr/local/include/dpJoshi_bits/vanilla1.hpp \
@@ -24,4 +28,8 @@ dependencies: \
   /usr/local/include/dpJoshi_bits/mcStatistics.hpp \
   /usr/local/include/dpJoshi_bits/wrapper.hpp \
   /usr/local/include/dpJoshi_bits/convergenceTable.hpp \
-  /usr/local/include/dpJoshi_bits/./wrapper.hpp
+  /usr/local/include/dpJoshi_bits/random2.hpp \
+  /usr/local/include/dpJoshi_bits/arrays.hpp \
+  /usr/local/include/dpJoshi_bits/normals.hpp \
+  /usr/local/include/dpJoshi_bits/parkMiller.hpp \
+  /usr/local/include/dpJoshi_bits/antithetic.hpp

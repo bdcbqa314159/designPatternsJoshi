@@ -174,6 +174,54 @@ dpJoshi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/build
 .PHONY : dpJoshi/fast
 
+src/antithetic.o: src/antithetic.cpp.o
+.PHONY : src/antithetic.o
+
+# target to build an object file
+src/antithetic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/antithetic.cpp.o
+.PHONY : src/antithetic.cpp.o
+
+src/antithetic.i: src/antithetic.cpp.i
+.PHONY : src/antithetic.i
+
+# target to preprocess a source file
+src/antithetic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/antithetic.cpp.i
+.PHONY : src/antithetic.cpp.i
+
+src/antithetic.s: src/antithetic.cpp.s
+.PHONY : src/antithetic.s
+
+# target to generate assembly for a file
+src/antithetic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/antithetic.cpp.s
+.PHONY : src/antithetic.cpp.s
+
+src/arrays.o: src/arrays.cpp.o
+.PHONY : src/arrays.o
+
+# target to build an object file
+src/arrays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/arrays.cpp.o
+.PHONY : src/arrays.cpp.o
+
+src/arrays.i: src/arrays.cpp.i
+.PHONY : src/arrays.i
+
+# target to preprocess a source file
+src/arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/arrays.cpp.i
+.PHONY : src/arrays.cpp.i
+
+src/arrays.s: src/arrays.cpp.s
+.PHONY : src/arrays.s
+
+# target to generate assembly for a file
+src/arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/arrays.cpp.s
+.PHONY : src/arrays.cpp.s
+
 src/convergenceTable.o: src/convergenceTable.cpp.o
 .PHONY : src/convergenceTable.o
 
@@ -246,6 +294,30 @@ src/mcStatistics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/mcStatistics.cpp.s
 .PHONY : src/mcStatistics.cpp.s
 
+src/normals.o: src/normals.cpp.o
+.PHONY : src/normals.o
+
+# target to build an object file
+src/normals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/normals.cpp.o
+.PHONY : src/normals.cpp.o
+
+src/normals.i: src/normals.cpp.i
+.PHONY : src/normals.i
+
+# target to preprocess a source file
+src/normals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/normals.cpp.i
+.PHONY : src/normals.cpp.i
+
+src/normals.s: src/normals.cpp.s
+.PHONY : src/normals.s
+
+# target to generate assembly for a file
+src/normals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/normals.cpp.s
+.PHONY : src/normals.cpp.s
+
 src/parameters.o: src/parameters.cpp.o
 .PHONY : src/parameters.o
 
@@ -269,6 +341,30 @@ src/parameters.s: src/parameters.cpp.s
 src/parameters.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/parameters.cpp.s
 .PHONY : src/parameters.cpp.s
+
+src/parkMiller.o: src/parkMiller.cpp.o
+.PHONY : src/parkMiller.o
+
+# target to build an object file
+src/parkMiller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/parkMiller.cpp.o
+.PHONY : src/parkMiller.cpp.o
+
+src/parkMiller.i: src/parkMiller.cpp.i
+.PHONY : src/parkMiller.i
+
+# target to preprocess a source file
+src/parkMiller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/parkMiller.cpp.i
+.PHONY : src/parkMiller.cpp.i
+
+src/parkMiller.s: src/parkMiller.cpp.s
+.PHONY : src/parkMiller.s
+
+# target to generate assembly for a file
+src/parkMiller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/parkMiller.cpp.s
+.PHONY : src/parkMiller.cpp.s
 
 src/payoff1.o: src/payoff1.cpp.o
 .PHONY : src/payoff1.o
@@ -390,6 +486,30 @@ src/random1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random1.cpp.s
 .PHONY : src/random1.cpp.s
 
+src/random2.o: src/random2.cpp.o
+.PHONY : src/random2.o
+
+# target to build an object file
+src/random2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random2.cpp.o
+.PHONY : src/random2.cpp.o
+
+src/random2.i: src/random2.cpp.i
+.PHONY : src/random2.i
+
+# target to preprocess a source file
+src/random2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random2.cpp.i
+.PHONY : src/random2.cpp.i
+
+src/random2.s: src/random2.cpp.s
+.PHONY : src/random2.s
+
+# target to generate assembly for a file
+src/random2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/random2.cpp.s
+.PHONY : src/random2.cpp.s
+
 src/simpleMC.o: src/simpleMC.cpp.o
 .PHONY : src/simpleMC.o
 
@@ -499,6 +619,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... dpJoshi"
+	@echo "... src/antithetic.o"
+	@echo "... src/antithetic.i"
+	@echo "... src/antithetic.s"
+	@echo "... src/arrays.o"
+	@echo "... src/arrays.i"
+	@echo "... src/arrays.s"
 	@echo "... src/convergenceTable.o"
 	@echo "... src/convergenceTable.i"
 	@echo "... src/convergenceTable.s"
@@ -508,9 +634,15 @@ help:
 	@echo "... src/mcStatistics.o"
 	@echo "... src/mcStatistics.i"
 	@echo "... src/mcStatistics.s"
+	@echo "... src/normals.o"
+	@echo "... src/normals.i"
+	@echo "... src/normals.s"
 	@echo "... src/parameters.o"
 	@echo "... src/parameters.i"
 	@echo "... src/parameters.s"
+	@echo "... src/parkMiller.o"
+	@echo "... src/parkMiller.i"
+	@echo "... src/parkMiller.s"
 	@echo "... src/payoff1.o"
 	@echo "... src/payoff1.i"
 	@echo "... src/payoff1.s"
@@ -526,6 +658,9 @@ help:
 	@echo "... src/random1.o"
 	@echo "... src/random1.i"
 	@echo "... src/random1.s"
+	@echo "... src/random2.o"
+	@echo "... src/random2.i"
+	@echo "... src/random2.s"
 	@echo "... src/simpleMC.o"
 	@echo "... src/simpleMC.i"
 	@echo "... src/simpleMC.s"

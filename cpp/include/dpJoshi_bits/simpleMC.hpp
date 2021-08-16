@@ -10,6 +10,8 @@
 #include "./vanilla3.hpp"
 #include "./parameters.hpp"
 #include "./mcStatistics.hpp"
+#include "./random2.hpp"
+#include "./antithetic.hpp"
 
 #include <cmath>
 
@@ -28,5 +30,7 @@ double SimpleMonteCarlo5(const VanillaOption3 &TheOption, double Spot, double Vo
 double SimpleMonteCarlo6(const VanillaOption3 &TheOption, double Spot, const Parameters &Vol, const Parameters &r, unsigned long NumberOfPaths);
 
 void SimpleMonteCarlo7(const VanillaOption3 &TheOption, double Spot, const Parameters &Vol, const Parameters &r, unsigned long NumberOfPaths, StatisticsMC &gatherer);
+
+void SimpleMonteCarlo8(const VanillaOption3 &TheOption, double Spot, const Parameters &Vol, const Parameters &r, unsigned long NumberOfPaths, StatisticsMC &gatherer, RandomBase &generator);
 
 #endif

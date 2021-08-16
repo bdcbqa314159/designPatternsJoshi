@@ -183,4 +183,8 @@ CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.o: \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./mcStatistics.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./random2.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./arrays.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./antithetic.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./wrapper.hpp

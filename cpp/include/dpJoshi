@@ -15,5 +15,10 @@
 #include "dpJoshi_bits/mcStatistics.hpp"
 #include "dpJoshi_bits/wrapper.hpp"
 #include "dpJoshi_bits/convergenceTable.hpp"
+#include "dpJoshi_bits/random2.hpp"
+#include "dpJoshi_bits/arrays.hpp"
+#include "dpJoshi_bits/normals.hpp"
+#include "dpJoshi_bits/parkMiller.hpp"
+#include "dpJoshi_bits/antithetic.hpp"
 
 #endif

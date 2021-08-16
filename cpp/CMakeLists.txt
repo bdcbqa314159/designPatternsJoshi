@@ -32,7 +32,11 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/mcStatistics.hpp
     ${PROJECT_INCLUDE_DIR}/wrapper.hpp
     ${PROJECT_INCLUDE_DIR}/convergenceTable.hpp
-
+    ${PROJECT_INCLUDE_DIR}/random2.hpp
+    ${PROJECT_INCLUDE_DIR}/arrays.hpp
+    ${PROJECT_INCLUDE_DIR}/normals.hpp
+    ${PROJECT_INCLUDE_DIR}/parkMiller.hpp
+    ${PROJECT_INCLUDE_DIR}/antithetic.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/random1.cpp
@@ -47,6 +51,11 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/parameters.cpp
     ${PROJECT_SOURCE_DIR}/mcStatistics.cpp
     ${PROJECT_SOURCE_DIR}/convergenceTable.cpp
+    ${PROJECT_SOURCE_DIR}/random2.cpp
+    ${PROJECT_SOURCE_DIR}/arrays.cpp
+    ${PROJECT_SOURCE_DIR}/normals.cpp
+    ${PROJECT_SOURCE_DIR}/parkMiller.cpp
+    ${PROJECT_SOURCE_DIR}/antithetic.cpp
     
 )
 
