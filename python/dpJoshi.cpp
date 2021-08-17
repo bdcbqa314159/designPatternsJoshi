@@ -272,3 +272,48 @@ void init_Random(py::module &m){
     antithetic.def(py::init<const Wrapper<RandomBase> &>());
     
 }
+
+void init_MJArray(py::module &m){
+
+    py::class_<MJArray>(m, "MJArray", py::buffer_protocol())
+        .def(py::init<unsigned long>())
+        .def(py::init<const MJArray &>())
+        /// Construct from a buffer
+        .def(py::init([](const py::buffer &b) {
+            py::buffer_info info = b.request();
+            if (info.format != py::format_descriptor<double>::format() || info.ndim != 1)
+                throw std::runtime_error("Incompatible buffer format!");
+
+            auto v = new MJArray(info.shape[0]);
+            memcpy(v->data(), info.ptr, sizeof(double) * v->size());
+            return v;
+        }))
+
+        .def("size", &MJArray::size)
+
+        /// Bare bones interface
+        .def("__getitem__",
+             [](const MJArray &m, unsigned long i) {
+                 if (i<0 || i>=m.size())
+                     throw py::index_error();
+                 return m[i];
+             })
+
+        .def("__setitem__",
+             [](MJArray &m, unsigned long i, double v) {
+                 if (i<0 || i>=m.size())
+                     throw py::index_error();
+                 return m[i] = v;
+             })
+        /// Provide buffer access
+        .def_buffer([](MJArray &m) -> py::buffer_info {
+        return py::buffer_info(
+            m.data(),                               /* Pointer to buffer */
+            sizeof(double),                          /* Size of one scalar */
+            py::format_descriptor<double>::format(), /* Python struct-style format descriptor */
+            1,                                      /* Number of dimensions */
+            { m.size()},                 /* Buffer dimensions */
+            { sizeof(double) * m.size()}
+        );
+    });
+}

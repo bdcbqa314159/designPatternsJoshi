@@ -8,6 +8,7 @@ void init_Parameters(py::module &);
 void init_Wrapper(py::module &);
 void init_MCStatistics(py::module &);
 void init_Random(py::module &);
+void init_MJArray(py::module &);
 
 
 namespace dpj {
@@ -22,6 +23,7 @@ PYBIND11_MODULE(dpJoshi, m) {
     init_Wrapper(m);
     init_MCStatistics(m);
     init_Random(m);
+    init_MJArray(m);
 
 	}
 

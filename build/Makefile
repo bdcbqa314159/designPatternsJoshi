@@ -246,6 +246,54 @@ cpp/src/convergenceTable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/convergenceTable.cpp.s
 .PHONY : cpp/src/convergenceTable.cpp.s
 
+cpp/src/exoticBSEngine.o: cpp/src/exoticBSEngine.cpp.o
+.PHONY : cpp/src/exoticBSEngine.o
+
+# target to build an object file
+cpp/src/exoticBSEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/exoticBSEngine.cpp.o
+.PHONY : cpp/src/exoticBSEngine.cpp.o
+
+cpp/src/exoticBSEngine.i: cpp/src/exoticBSEngine.cpp.i
+.PHONY : cpp/src/exoticBSEngine.i
+
+# target to preprocess a source file
+cpp/src/exoticBSEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/exoticBSEngine.cpp.i
+.PHONY : cpp/src/exoticBSEngine.cpp.i
+
+cpp/src/exoticBSEngine.s: cpp/src/exoticBSEngine.cpp.s
+.PHONY : cpp/src/exoticBSEngine.s
+
+# target to generate assembly for a file
+cpp/src/exoticBSEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/exoticBSEngine.cpp.s
+.PHONY : cpp/src/exoticBSEngine.cpp.s
+
+cpp/src/exoticEngine.o: cpp/src/exoticEngine.cpp.o
+.PHONY : cpp/src/exoticEngine.o
+
+# target to build an object file
+cpp/src/exoticEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/exoticEngine.cpp.o
+.PHONY : cpp/src/exoticEngine.cpp.o
+
+cpp/src/exoticEngine.i: cpp/src/exoticEngine.cpp.i
+.PHONY : cpp/src/exoticEngine.i
+
+# target to preprocess a source file
+cpp/src/exoticEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/exoticEngine.cpp.i
+.PHONY : cpp/src/exoticEngine.cpp.i
+
+cpp/src/exoticEngine.s: cpp/src/exoticEngine.cpp.s
+.PHONY : cpp/src/exoticEngine.s
+
+# target to generate assembly for a file
+cpp/src/exoticEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/exoticEngine.cpp.s
+.PHONY : cpp/src/exoticEngine.cpp.s
+
 cpp/src/intro.o: cpp/src/intro.cpp.o
 .PHONY : cpp/src/intro.o
 
@@ -365,6 +413,54 @@ cpp/src/parkMiller.s: cpp/src/parkMiller.cpp.s
 cpp/src/parkMiller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/parkMiller.cpp.s
 .PHONY : cpp/src/parkMiller.cpp.s
+
+cpp/src/pathDependent.o: cpp/src/pathDependent.cpp.o
+.PHONY : cpp/src/pathDependent.o
+
+# target to build an object file
+cpp/src/pathDependent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/pathDependent.cpp.o
+.PHONY : cpp/src/pathDependent.cpp.o
+
+cpp/src/pathDependent.i: cpp/src/pathDependent.cpp.i
+.PHONY : cpp/src/pathDependent.i
+
+# target to preprocess a source file
+cpp/src/pathDependent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/pathDependent.cpp.i
+.PHONY : cpp/src/pathDependent.cpp.i
+
+cpp/src/pathDependent.s: cpp/src/pathDependent.cpp.s
+.PHONY : cpp/src/pathDependent.s
+
+# target to generate assembly for a file
+cpp/src/pathDependent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/pathDependent.cpp.s
+.PHONY : cpp/src/pathDependent.cpp.s
+
+cpp/src/pathDependentAsian.o: cpp/src/pathDependentAsian.cpp.o
+.PHONY : cpp/src/pathDependentAsian.o
+
+# target to build an object file
+cpp/src/pathDependentAsian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/pathDependentAsian.cpp.o
+.PHONY : cpp/src/pathDependentAsian.cpp.o
+
+cpp/src/pathDependentAsian.i: cpp/src/pathDependentAsian.cpp.i
+.PHONY : cpp/src/pathDependentAsian.i
+
+# target to preprocess a source file
+cpp/src/pathDependentAsian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/pathDependentAsian.cpp.i
+.PHONY : cpp/src/pathDependentAsian.cpp.i
+
+cpp/src/pathDependentAsian.s: cpp/src/pathDependentAsian.cpp.s
+.PHONY : cpp/src/pathDependentAsian.s
+
+# target to generate assembly for a file
+cpp/src/pathDependentAsian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/cpp/src/pathDependentAsian.cpp.s
+.PHONY : cpp/src/pathDependentAsian.cpp.s
 
 cpp/src/payoff1.o: cpp/src/payoff1.cpp.o
 .PHONY : cpp/src/payoff1.o
@@ -676,6 +772,12 @@ help:
 	@echo "... cpp/src/convergenceTable.o"
 	@echo "... cpp/src/convergenceTable.i"
 	@echo "... cpp/src/convergenceTable.s"
+	@echo "... cpp/src/exoticBSEngine.o"
+	@echo "... cpp/src/exoticBSEngine.i"
+	@echo "... cpp/src/exoticBSEngine.s"
+	@echo "... cpp/src/exoticEngine.o"
+	@echo "... cpp/src/exoticEngine.i"
+	@echo "... cpp/src/exoticEngine.s"
 	@echo "... cpp/src/intro.o"
 	@echo "... cpp/src/intro.i"
 	@echo "... cpp/src/intro.s"
@@ -691,6 +793,12 @@ help:
 	@echo "... cpp/src/parkMiller.o"
 	@echo "... cpp/src/parkMiller.i"
 	@echo "... cpp/src/parkMiller.s"
+	@echo "... cpp/src/pathDependent.o"
+	@echo "... cpp/src/pathDependent.i"
+	@echo "... cpp/src/pathDependent.s"
+	@echo "... cpp/src/pathDependentAsian.o"
+	@echo "... cpp/src/pathDependentAsian.i"
+	@echo "... cpp/src/pathDependentAsian.s"
 	@echo "... cpp/src/payoff1.o"
 	@echo "... cpp/src/payoff1.i"
 	@echo "... cpp/src/payoff1.s"

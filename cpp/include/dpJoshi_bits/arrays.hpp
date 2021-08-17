@@ -42,6 +42,7 @@ public:
     double sum() const;
     double min() const;
     double max() const;
+    double* data() const;
     
 private:
     double *ValuesPtr;

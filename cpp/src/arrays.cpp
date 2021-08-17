@@ -202,6 +202,11 @@ double MJArray::max() const{
     return *std::max_element(tmp, endtmp);
 }
 
+double* MJArray::data() const{
+    
+    return ValuesPtr;
+}
+
 MJArray MJArray::apply(double (*f)(double)) const {
     
     MJArray result(size());
