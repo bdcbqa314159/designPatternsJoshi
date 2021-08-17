@@ -10,4 +10,8 @@ dependencies: \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./vanilla3.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./payoffBridge.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./parameters.hpp \
-  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./mcStatistics.hpp
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./mcStatistics.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./random2.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./arrays.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./antithetic.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./wrapper.hpp

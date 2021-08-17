@@ -32,4 +32,10 @@ dependencies: \
   /usr/local/include/dpJoshi_bits/arrays.hpp \
   /usr/local/include/dpJoshi_bits/normals.hpp \
   /usr/local/include/dpJoshi_bits/parkMiller.hpp \
-  /usr/local/include/dpJoshi_bits/antithetic.hpp
+  /usr/local/include/dpJoshi_bits/antithetic.hpp \
+  /usr/local/include/dpJoshi_bits/pathDependent.hpp \
+  /usr/local/include/dpJoshi_bits/exoticEngine.hpp \
+  /usr/local/include/dpJoshi_bits/./pathDependent.hpp \
+  /usr/local/include/dpJoshi_bits/exoticBSEngine.hpp \
+  /usr/local/include/dpJoshi_bits/./exoticEngine.hpp \
+  /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp

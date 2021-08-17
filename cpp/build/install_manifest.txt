@@ -7,12 +7,15 @@
 /usr/local/include/dpJoshi_bits/normals.hpp
 /usr/local/include/dpJoshi_bits/antithetic.hpp
 /usr/local/include/dpJoshi_bits/arrays.hpp
+/usr/local/include/dpJoshi_bits/pathDependentAsian.hpp
+/usr/local/include/dpJoshi_bits/pathDependent.hpp
 /usr/local/include/dpJoshi_bits/random1.hpp
 /usr/local/include/dpJoshi_bits/random2.hpp
 /usr/local/include/dpJoshi_bits/intro.hpp
 /usr/local/include/dpJoshi_bits/payoff1.hpp
 /usr/local/include/dpJoshi_bits/payoff3.hpp
 /usr/local/include/dpJoshi_bits/payoff2.hpp
+/usr/local/include/dpJoshi_bits/exoticEngine.hpp
 /usr/local/include/dpJoshi_bits/parameters.hpp
 /usr/local/include/dpJoshi_bits/vanilla1.hpp
 /usr/local/include/dpJoshi_bits/convergenceTable.hpp
@@ -20,3 +23,4 @@
 /usr/local/include/dpJoshi_bits/vanilla3.hpp
 /usr/local/include/dpJoshi_bits/wrapper.hpp
 /usr/local/include/dpJoshi_bits/simpleMC.hpp
+/usr/local/include/dpJoshi_bits/exoticBSEngine.hpp

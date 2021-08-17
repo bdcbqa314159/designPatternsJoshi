@@ -20,5 +20,9 @@
 #include "dpJoshi_bits/normals.hpp"
 #include "dpJoshi_bits/parkMiller.hpp"
 #include "dpJoshi_bits/antithetic.hpp"
+#include "dpJoshi_bits/pathDependent.hpp"
+#include "dpJoshi_bits/exoticEngine.hpp"
+#include "dpJoshi_bits/exoticBSEngine.hpp"
+#include "dpJoshi_bits/pathDependentAsian.hpp"
 
 #endif

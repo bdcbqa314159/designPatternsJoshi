@@ -246,6 +246,54 @@ src/convergenceTable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/convergenceTable.cpp.s
 .PHONY : src/convergenceTable.cpp.s
 
+src/exoticBSEngine.o: src/exoticBSEngine.cpp.o
+.PHONY : src/exoticBSEngine.o
+
+# target to build an object file
+src/exoticBSEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/exoticBSEngine.cpp.o
+.PHONY : src/exoticBSEngine.cpp.o
+
+src/exoticBSEngine.i: src/exoticBSEngine.cpp.i
+.PHONY : src/exoticBSEngine.i
+
+# target to preprocess a source file
+src/exoticBSEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/exoticBSEngine.cpp.i
+.PHONY : src/exoticBSEngine.cpp.i
+
+src/exoticBSEngine.s: src/exoticBSEngine.cpp.s
+.PHONY : src/exoticBSEngine.s
+
+# target to generate assembly for a file
+src/exoticBSEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/exoticBSEngine.cpp.s
+.PHONY : src/exoticBSEngine.cpp.s
+
+src/exoticEngine.o: src/exoticEngine.cpp.o
+.PHONY : src/exoticEngine.o
+
+# target to build an object file
+src/exoticEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/exoticEngine.cpp.o
+.PHONY : src/exoticEngine.cpp.o
+
+src/exoticEngine.i: src/exoticEngine.cpp.i
+.PHONY : src/exoticEngine.i
+
+# target to preprocess a source file
+src/exoticEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/exoticEngine.cpp.i
+.PHONY : src/exoticEngine.cpp.i
+
+src/exoticEngine.s: src/exoticEngine.cpp.s
+.PHONY : src/exoticEngine.s
+
+# target to generate assembly for a file
+src/exoticEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/exoticEngine.cpp.s
+.PHONY : src/exoticEngine.cpp.s
+
 src/intro.o: src/intro.cpp.o
 .PHONY : src/intro.o
 
@@ -365,6 +413,54 @@ src/parkMiller.s: src/parkMiller.cpp.s
 src/parkMiller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/parkMiller.cpp.s
 .PHONY : src/parkMiller.cpp.s
+
+src/pathDependent.o: src/pathDependent.cpp.o
+.PHONY : src/pathDependent.o
+
+# target to build an object file
+src/pathDependent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/pathDependent.cpp.o
+.PHONY : src/pathDependent.cpp.o
+
+src/pathDependent.i: src/pathDependent.cpp.i
+.PHONY : src/pathDependent.i
+
+# target to preprocess a source file
+src/pathDependent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/pathDependent.cpp.i
+.PHONY : src/pathDependent.cpp.i
+
+src/pathDependent.s: src/pathDependent.cpp.s
+.PHONY : src/pathDependent.s
+
+# target to generate assembly for a file
+src/pathDependent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/pathDependent.cpp.s
+.PHONY : src/pathDependent.cpp.s
+
+src/pathDependentAsian.o: src/pathDependentAsian.cpp.o
+.PHONY : src/pathDependentAsian.o
+
+# target to build an object file
+src/pathDependentAsian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.o
+.PHONY : src/pathDependentAsian.cpp.o
+
+src/pathDependentAsian.i: src/pathDependentAsian.cpp.i
+.PHONY : src/pathDependentAsian.i
+
+# target to preprocess a source file
+src/pathDependentAsian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.i
+.PHONY : src/pathDependentAsian.cpp.i
+
+src/pathDependentAsian.s: src/pathDependentAsian.cpp.s
+.PHONY : src/pathDependentAsian.s
+
+# target to generate assembly for a file
+src/pathDependentAsian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.s
+.PHONY : src/pathDependentAsian.cpp.s
 
 src/payoff1.o: src/payoff1.cpp.o
 .PHONY : src/payoff1.o
@@ -628,6 +724,12 @@ help:
 	@echo "... src/convergenceTable.o"
 	@echo "... src/convergenceTable.i"
 	@echo "... src/convergenceTable.s"
+	@echo "... src/exoticBSEngine.o"
+	@echo "... src/exoticBSEngine.i"
+	@echo "... src/exoticBSEngine.s"
+	@echo "... src/exoticEngine.o"
+	@echo "... src/exoticEngine.i"
+	@echo "... src/exoticEngine.s"
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"
@@ -643,6 +745,12 @@ help:
 	@echo "... src/parkMiller.o"
 	@echo "... src/parkMiller.i"
 	@echo "... src/parkMiller.s"
+	@echo "... src/pathDependent.o"
+	@echo "... src/pathDependent.i"
+	@echo "... src/pathDependent.s"
+	@echo "... src/pathDependentAsian.o"
+	@echo "... src/pathDependentAsian.i"
+	@echo "... src/pathDependentAsian.s"
 	@echo "... src/payoff1.o"
 	@echo "... src/payoff1.i"
 	@echo "... src/payoff1.s"

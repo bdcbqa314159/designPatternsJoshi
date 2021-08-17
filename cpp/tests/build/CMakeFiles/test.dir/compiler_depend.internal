@@ -246,6 +246,10 @@ CMakeFiles/test.dir/src/test.cpp.o
  /usr/local/include/dpJoshi_bits/mcStatistics.hpp
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
+ /usr/local/include/dpJoshi_bits/random2.hpp
+ /usr/local/include/dpJoshi_bits/arrays.hpp
+ /usr/local/include/dpJoshi_bits/antithetic.hpp
+ /usr/local/include/dpJoshi_bits/wrapper.hpp
  /usr/local/include/dpJoshi_bits/payoff1.hpp
  /usr/local/include/dpJoshi_bits/payoff2.hpp
  /usr/local/include/dpJoshi_bits/vanilla1.hpp
@@ -257,5 +261,15 @@ CMakeFiles/test.dir/src/test.cpp.o
  /usr/local/include/dpJoshi_bits/mcStatistics.hpp
  /usr/local/include/dpJoshi_bits/wrapper.hpp
  /usr/local/include/dpJoshi_bits/convergenceTable.hpp
- /usr/local/include/dpJoshi_bits/wrapper.hpp
+ /usr/local/include/dpJoshi_bits/random2.hpp
+ /usr/local/include/dpJoshi_bits/arrays.hpp
+ /usr/local/include/dpJoshi_bits/normals.hpp
+ /usr/local/include/dpJoshi_bits/parkMiller.hpp
+ /usr/local/include/dpJoshi_bits/antithetic.hpp
+ /usr/local/include/dpJoshi_bits/pathDependent.hpp
+ /usr/local/include/dpJoshi_bits/exoticEngine.hpp
+ /usr/local/include/dpJoshi_bits/pathDependent.hpp
+ /usr/local/include/dpJoshi_bits/exoticBSEngine.hpp
+ /usr/local/include/dpJoshi_bits/exoticEngine.hpp
+ /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp
 

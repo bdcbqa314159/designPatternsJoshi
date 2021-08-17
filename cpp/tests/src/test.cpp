@@ -411,6 +411,60 @@ int testingSimpleMC8(){
     
 }
 
+int testingBSEngine(){
+    
+    double Expiry = 1.;
+    double Strike = 29;
+    double Spot = 30;
+    double Vol = 0.3;
+    double r = 0.08;
+    double d = 0;
+    
+    unsigned long NumberOfPaths = 1000000;
+    unsigned long NumberOfDates = 250;
+   
+//    PayOffCall3 thePayOff(Strike);
+    PayOffPut3 thePayOff(Strike);
+    MJArray times(NumberOfDates);
+    
+    for (unsigned long i = 0; i<NumberOfDates; i++){
+        times[i] = (i+1.)*Expiry/NumberOfDates;
+    }
+    
+    ParametersConstant VolParam(Vol);
+    ParametersConstant rParam(r);
+    ParametersConstant dParam(d);
+    
+    PathDependentAsian theOption(times, Expiry, thePayOff);
+    
+    StatisticsMean gatherer;
+    ConvergenceTable gathererTwo(gatherer);
+    
+    RandomParkMiller generator(NumberOfDates);
+    Antithetic GenTwo(generator);
+    
+    ExoticBSEngine theEngine(theOption, rParam, dParam, VolParam, GenTwo, Spot);
+
+    theEngine.DoSimulation(gathererTwo, NumberOfPaths);
+    //From another book - price has to be around "Call Price : 10.4506"
+    //From another book - price has to be around "Put Price : 5.57352"
+    //From another book - price has to be around "Options Price:   0.32009"
+    
+    std::vector<std::vector<double> > results = gathererTwo.GetResultsSoFar();
+    
+    std::cout<<"For the Asian Call price the results are : "<<std::endl;
+    
+    for (unsigned long i = 0; i<results.size(); i++){
+        for (unsigned long j = 0; j<results.at(i).size(); j++){
+            
+            std::cout<<results.at(i).at(j)<<" ";
+        }
+        std::cout<<"\n";
+    }
+
+    return 0;
+}
+
 
 
 int main() {
@@ -426,7 +480,8 @@ int main() {
 //    testingSimpleMC6();
 //    testingSimpleMC7();
 //    testingSimpleMC7_withWrapper();
-    testingSimpleMC8();
+//    testingSimpleMC8();
+    testingBSEngine();
     
     
     return 0;

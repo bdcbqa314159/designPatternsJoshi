@@ -245,6 +245,10 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/dpJoshi_bits/mcStatistics.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /usr/local/include/dpJoshi_bits/random2.hpp \
+  /usr/local/include/dpJoshi_bits/arrays.hpp \
+  /usr/local/include/dpJoshi_bits/antithetic.hpp \
+  /usr/local/include/dpJoshi_bits/wrapper.hpp \
   /usr/local/include/dpJoshi_bits/payoff1.hpp \
   /usr/local/include/dpJoshi_bits/payoff2.hpp \
   /usr/local/include/dpJoshi_bits/vanilla1.hpp \
@@ -256,12 +260,32 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/dpJoshi_bits/mcStatistics.hpp \
   /usr/local/include/dpJoshi_bits/wrapper.hpp \
   /usr/local/include/dpJoshi_bits/convergenceTable.hpp \
-  /usr/local/include/dpJoshi_bits/wrapper.hpp
+  /usr/local/include/dpJoshi_bits/random2.hpp \
+  /usr/local/include/dpJoshi_bits/arrays.hpp \
+  /usr/local/include/dpJoshi_bits/normals.hpp \
+  /usr/local/include/dpJoshi_bits/parkMiller.hpp \
+  /usr/local/include/dpJoshi_bits/antithetic.hpp \
+  /usr/local/include/dpJoshi_bits/pathDependent.hpp \
+  /usr/local/include/dpJoshi_bits/exoticEngine.hpp \
+  /usr/local/include/dpJoshi_bits/pathDependent.hpp \
+  /usr/local/include/dpJoshi_bits/exoticBSEngine.hpp \
+  /usr/local/include/dpJoshi_bits/exoticEngine.hpp \
+  /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp
 
+
+/usr/local/include/dpJoshi_bits/pathDependentAsian.hpp:
+
+/usr/local/include/dpJoshi_bits/exoticBSEngine.hpp:
+
+/usr/local/include/dpJoshi_bits/pathDependent.hpp:
+
+/usr/local/include/dpJoshi_bits/normals.hpp:
 
 /usr/local/include/dpJoshi_bits/convergenceTable.hpp:
 
 /usr/local/include/dpJoshi_bits/wrapper.hpp:
+
+/usr/local/include/dpJoshi_bits/arrays.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
 
@@ -355,6 +379,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale.h:
 
+/usr/local/include/dpJoshi_bits/random2.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__mutex_base:
@@ -430,6 +456,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base:
+
+/usr/local/include/dpJoshi_bits/parkMiller.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring:
 
@@ -513,6 +541,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
+/usr/local/include/dpJoshi_bits/antithetic.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h:
@@ -520,6 +550,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h:
+
+/usr/local/include/dpJoshi_bits/exoticEngine.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h:
 
