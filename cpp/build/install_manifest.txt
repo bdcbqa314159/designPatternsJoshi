@@ -3,16 +3,20 @@
 /usr/local/include/dpJoshi_bits/payoffBridge.hpp
 /usr/local/include/dpJoshi_bits/parkMiller.hpp
 /usr/local/include/dpJoshi_bits/mcStatistics.hpp
+/usr/local/include/dpJoshi_bits/treeProducts.hpp
 /usr/local/include/dpJoshi_bits/.DS_Store
+/usr/local/include/dpJoshi_bits/blackScholesFormulas.hpp
 /usr/local/include/dpJoshi_bits/normals.hpp
 /usr/local/include/dpJoshi_bits/antithetic.hpp
 /usr/local/include/dpJoshi_bits/arrays.hpp
 /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp
 /usr/local/include/dpJoshi_bits/pathDependent.hpp
 /usr/local/include/dpJoshi_bits/random1.hpp
+/usr/local/include/dpJoshi_bits/treeEuropean.hpp
 /usr/local/include/dpJoshi_bits/random2.hpp
 /usr/local/include/dpJoshi_bits/intro.hpp
 /usr/local/include/dpJoshi_bits/payoff1.hpp
+/usr/local/include/dpJoshi_bits/payoffForward.hpp
 /usr/local/include/dpJoshi_bits/payoff3.hpp
 /usr/local/include/dpJoshi_bits/payoff2.hpp
 /usr/local/include/dpJoshi_bits/exoticEngine.hpp
@@ -24,3 +28,5 @@
 /usr/local/include/dpJoshi_bits/wrapper.hpp
 /usr/local/include/dpJoshi_bits/simpleMC.hpp
 /usr/local/include/dpJoshi_bits/exoticBSEngine.hpp
+/usr/local/include/dpJoshi_bits/binomialTree.hpp
+/usr/local/include/dpJoshi_bits/treeAmerican.hpp

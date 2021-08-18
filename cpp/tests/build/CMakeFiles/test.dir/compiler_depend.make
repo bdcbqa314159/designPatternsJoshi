@@ -270,8 +270,19 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/dpJoshi_bits/pathDependent.hpp \
   /usr/local/include/dpJoshi_bits/exoticBSEngine.hpp \
   /usr/local/include/dpJoshi_bits/exoticEngine.hpp \
-  /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp
+  /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp \
+  /usr/local/include/dpJoshi_bits/treeProducts.hpp \
+  /usr/local/include/dpJoshi_bits/treeAmerican.hpp \
+  /usr/local/include/dpJoshi_bits/treeProducts.hpp \
+  /usr/local/include/dpJoshi_bits/treeEuropean.hpp \
+  /usr/local/include/dpJoshi_bits/binomialTree.hpp
 
+
+/usr/local/include/dpJoshi_bits/binomialTree.hpp:
+
+/usr/local/include/dpJoshi_bits/treeEuropean.hpp:
+
+/usr/local/include/dpJoshi_bits/treeProducts.hpp:
 
 /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp:
 
@@ -676,6 +687,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/memory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h:
+
+/usr/local/include/dpJoshi_bits/treeAmerican.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc:
 

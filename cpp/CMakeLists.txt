@@ -41,6 +41,12 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/exoticEngine.hpp
     ${PROJECT_INCLUDE_DIR}/exoticBSEngine.hpp
     ${PROJECT_INCLUDE_DIR}/pathDependentAsian.hpp
+    ${PROJECT_INCLUDE_DIR}/treeProducts.hpp
+    ${PROJECT_INCLUDE_DIR}/treeAmerican.hpp
+    ${PROJECT_INCLUDE_DIR}/treeEuropean.hpp
+    ${PROJECT_INCLUDE_DIR}/binomialTree.hpp
+    ${PROJECT_INCLUDE_DIR}/blackScholesFormulas.hpp
+    ${PROJECT_INCLUDE_DIR}/payoffForward.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/random1.cpp
@@ -64,6 +70,12 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/exoticEngine.cpp
     ${PROJECT_SOURCE_DIR}/exoticBSEngine.cpp
     ${PROJECT_SOURCE_DIR}/pathDependentAsian.cpp
+    ${PROJECT_SOURCE_DIR}/treeProducts.cpp
+    ${PROJECT_SOURCE_DIR}/treeAmerican.cpp
+    ${PROJECT_SOURCE_DIR}/treeEuropean.cpp
+    ${PROJECT_SOURCE_DIR}/binomialTree.cpp
+    ${PROJECT_SOURCE_DIR}/blackScholesFormulas.cpp
+    ${PROJECT_SOURCE_DIR}/payoffForward.cpp
         
     
 )

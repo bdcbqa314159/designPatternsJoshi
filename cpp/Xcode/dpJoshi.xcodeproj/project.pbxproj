@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		226D61337FAB4487AF3AE96A /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 323AAE2ABB2849C8864C02AF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = CA194FC219FC4FB0AAABF3C9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				5AC255D8BF5A825CA49E4FD9 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,25 +20,25 @@
 		};
 		53D08268C0F64BB6BE7FC825 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 47397B9158BA467FB3D23E66 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 96475FB01EDE444D9FD3F7FE /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				4DC76A4CF0734B20A0DE3C0A /* PBXTargetDependency */,
+				FC95155C1B3A4DF5BCCDD9A5 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		B87428A0020F41D9BD076382 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 37DFBC847BD74958943679C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = B5414169387545B1BC2819BB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				6A7AE09F1677AE2072F6EA29 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				24DA9FAC41164FE1AC772137 /* PBXTargetDependency */,
-				4E24FF1F7035450A91115D57 /* PBXTargetDependency */,
+				483BE8C94E914A68A31383FE /* PBXTargetDependency */,
+				E3750107B1E24F19BCAD3D30 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -46,108 +46,120 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		077A5E7A4E0B4436ABA56F05 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */ = {isa = PBXBuildFile; fileRef = 1B20C8BEF47841F08714F4BC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */; };
-		07D80C8CCC76454CA05874A6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */ = {isa = PBXBuildFile; fileRef = 2DBEA745349C48B1A6FE8DFD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */; };
-		20EF72CE9F084D259D44F78E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */ = {isa = PBXBuildFile; fileRef = C32845851A6A48B0BD2882D6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */; };
-		231E31754F414A67B8188468 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */ = {isa = PBXBuildFile; fileRef = CDC25A68AEA44B868D902BEF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */; };
-		2448F9E726DB424C8DD11D2B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */ = {isa = PBXBuildFile; fileRef = 925884E3E460408599A9D628 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */; };
-		252091A6DDFF49E4B2BAEFBC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */ = {isa = PBXBuildFile; fileRef = 238EBD16C0C44ED8A30C5788 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */; };
-		2F0A2657B7744257B6A37A7E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */ = {isa = PBXBuildFile; fileRef = B4792EAA62184837832AF215 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */; };
-		328B171E3DDA4101A94B0C80 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */ = {isa = PBXBuildFile; fileRef = A039A867AF794FE1AA0CBC42 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */; };
-		48E0C3CA91C44B61B9BFABF0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */ = {isa = PBXBuildFile; fileRef = B68EB583A1E44C2CADF1B97B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */; };
-		5399D8BB141F4105A7E3DFC6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */ = {isa = PBXBuildFile; fileRef = 66D93A519465447BB9608EAB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */; };
-		56198FF2AD5541F0BC9D977E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */ = {isa = PBXBuildFile; fileRef = C534FE930BAB4FF0845C3E1F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */; };
-		5912FFBACF0D47529FFD56C9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */ = {isa = PBXBuildFile; fileRef = 00A2A46E65D247128E411F5E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */; };
-		5A6F3347D982400BA064F6AE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */ = {isa = PBXBuildFile; fileRef = BF518F23CCBD4FB992C65683 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */; };
-		5E7684E47CBD4B4DB3F49ED2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */ = {isa = PBXBuildFile; fileRef = 99F02B2136654146B950E4CD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */; };
-		5F6E99F9756F443886892F48 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */ = {isa = PBXBuildFile; fileRef = 80EFABD9040F4C3F9D49F24E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */; };
-		62739A5B42C74A199778183F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */ = {isa = PBXBuildFile; fileRef = A6705D1FD6274ECBB296DC6A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */; };
-		6DFB93FC636045989600CDB8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */ = {isa = PBXBuildFile; fileRef = A5F510E7E6CE47BFBC520A88 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */; };
-		6E076716B82B43CC854D0107 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */ = {isa = PBXBuildFile; fileRef = 17262A2D0D474F809D22D811 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */; };
-		71F614C2D9B2448D93F19DF2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = 396C0A9EAE3E444790D696D9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */; };
-		7772562392364DD9B8B12C04 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */ = {isa = PBXBuildFile; fileRef = 6FF8F4763E0241B193C7D10D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */; };
-		81152ED7BC954FF08D94F7F2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */ = {isa = PBXBuildFile; fileRef = 9C40397BDBDA460C8E8DAA8B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */; };
-		846FD6A28F64457A9165D41E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */ = {isa = PBXBuildFile; fileRef = 1483D84E86C246688F816987 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */; };
-		8C32A56349654EB9899D8DD3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */ = {isa = PBXBuildFile; fileRef = E16CDCDCAB974DDE9E8E49BE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */; };
-		9306EF73E6704DD895ADF913 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */ = {isa = PBXBuildFile; fileRef = ADF47C2922DB4383A60B9D41 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */; };
-		99185BFEB92849F8A8D0E749 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */ = {isa = PBXBuildFile; fileRef = 46732D537BC646B1A8FE9296 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */; };
-		9A4D0C743ACE41588D893E34 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */ = {isa = PBXBuildFile; fileRef = 01A8E610B4114238A36C253D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */; };
-		9CC327D53BDB41B6A672F392 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */ = {isa = PBXBuildFile; fileRef = 6233992002D64BAABAE170EF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */; };
-		A0514601681E41F6A25E61BB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */ = {isa = PBXBuildFile; fileRef = BA4544DF382F42A688B1929F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */; };
-		A3F38D029C6C494BA7BE1C60 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */ = {isa = PBXBuildFile; fileRef = 38E73B99C65F44AABB965A5C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */; };
-		A634324A322F4560AE409630 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */ = {isa = PBXBuildFile; fileRef = B2808603D7814FA79BD510FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */; };
-		ADFD5E3BA65040A8BCAB2CEC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */ = {isa = PBXBuildFile; fileRef = 3826D0B31D444227AFCD726F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */; };
-		AF03EC4463394AD9AD5E685F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */ = {isa = PBXBuildFile; fileRef = F46A5FD905B242D2A4AC47CA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */; };
-		B236B4FD54504AD5903F7941 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0967414E1F474AEABB4E14CA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */; };
-		B798BBEA6CF441E890C5A466 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */ = {isa = PBXBuildFile; fileRef = 4CE4CF8D628049E985DD3285 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */; };
-		BBA1D6B4B4D84C1BB4A6A5CB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */ = {isa = PBXBuildFile; fileRef = 7F465B09AC924DCFAA648B15 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */; };
-		BD3820C768F14935A53CD8A3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */ = {isa = PBXBuildFile; fileRef = FFA077E4DF0A4B2BB2596169 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */; };
-		BD4E7493C6A44870BA851DC8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */ = {isa = PBXBuildFile; fileRef = 38E280ABF0684E4382157273 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */; };
-		BD6894950F5D41C9A33E5F2C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */ = {isa = PBXBuildFile; fileRef = F939DB8469664319BB9D5366 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */; };
-		C190D6F9A5574AC3A7914E02 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = 03C90918E59D4C1B9B360460 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */; };
-		CDEE8FD9141A4921B6866FC4 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */ = {isa = PBXBuildFile; fileRef = 30C260DC97F24CF183C0FA15 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */; };
-		D1960B6FB12C44948836E046 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */ = {isa = PBXBuildFile; fileRef = 457AB23657244CC9B0596839 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */; };
-		D7D4381F977548528172E1D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */ = {isa = PBXBuildFile; fileRef = 9E64BB01AAFB494F8CC3527A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */; };
-		DC59D9C057024C6292B2C7E7 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */ = {isa = PBXBuildFile; fileRef = ACF2CBD5152F4BE3857038BE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */; };
-		E792979CE47F438B9A847711 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */ = {isa = PBXBuildFile; fileRef = 06CC111A3A064544951D2314 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */; };
-		FCADD0B1FFF84D43B986EBD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */ = {isa = PBXBuildFile; fileRef = B33EECE059074F64A2C735DE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */; };
-		FCD0AF1CA4B54FB58E9E5700 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */ = {isa = PBXBuildFile; fileRef = 59528E8F8F9B4E9B8BE6F3E2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */; };
+		007F933FCAAA494C9DA56471 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */ = {isa = PBXBuildFile; fileRef = 1E51D0C2C4544008B67C9249 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */; };
+		0517210879294A4E94F6980B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */ = {isa = PBXBuildFile; fileRef = ACECA19A74DC4541AA73F029 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */; };
+		064E33AE4D544C948C4B836A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/blackScholesFormulas.hpp */ = {isa = PBXBuildFile; fileRef = 568C6F7BB80B4F8DA6977D12 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/blackScholesFormulas.hpp */; };
+		08073B7A7DB445D3996CA7B5 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp */ = {isa = PBXBuildFile; fileRef = 948F9F20723746F49945C73F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp */; };
+		093E19FBC2CE48AA8BC1ADB8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp */ = {isa = PBXBuildFile; fileRef = 22D54EBE5C81438BBC6AE6DF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp */; };
+		11A4EF74E7D74CADAE7FE6A7 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = E348594BE56E4C049BB3DA59 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */; };
+		1308A4BA080A442ABFFFE5B9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */ = {isa = PBXBuildFile; fileRef = 77B788B83BCB470C9221C472 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */; };
+		14DFCFC5077E49178ED2F7DF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeProducts.hpp */ = {isa = PBXBuildFile; fileRef = C635AA4BBFDA4650BD62A08C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeProducts.hpp */; };
+		151F6BE4AB374AE69A30FCEB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp */ = {isa = PBXBuildFile; fileRef = 9DE39FA2AB12425F951E61A9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp */; };
+		1F58AE16FE2E40E1AC2C1CDD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */ = {isa = PBXBuildFile; fileRef = 6DB6A662131441C2B6434A6F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */; };
+		204A08AE34C5472194624D16 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */ = {isa = PBXBuildFile; fileRef = 075B8844625E4B10AD61B406 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */; };
+		21A5C86375224336A79689D0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = E41CCB82BA70421EA1B96FD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */; };
+		23D4AD996B644E59834E1983 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */ = {isa = PBXBuildFile; fileRef = 7601056E944F484398ED47AA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */; };
+		24940FBC8D204BC58F3BB132 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffForward.hpp */ = {isa = PBXBuildFile; fileRef = 96908A69BFCA418DA6F384B0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffForward.hpp */; };
+		33B90C9D612F48A8B310711D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */ = {isa = PBXBuildFile; fileRef = 8B6748602E744530AADCBDD6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */; };
+		4197C8081EAD46AA8CC72983 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */ = {isa = PBXBuildFile; fileRef = 127EEF84142A452F8FAAEDEC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */; };
+		41FE4DEA07284BB69478775D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp */ = {isa = PBXBuildFile; fileRef = 604F5FC54EA64BB4858A3786 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp */; };
+		4A711481F75248F7A74CE142 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */ = {isa = PBXBuildFile; fileRef = 61CFB12431F545F8B1029847 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */; };
+		4E05BF476F8C48088C46048C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */ = {isa = PBXBuildFile; fileRef = DFD1FAD2D5BF414496044C69 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */; };
+		5514D37FEAA6415C9DDBC286 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */ = {isa = PBXBuildFile; fileRef = 946F81E5A5F14748977D8570 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */; };
+		5984CC77A8654E0796B960A6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */ = {isa = PBXBuildFile; fileRef = 532B93AD71F14A53999169D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */; };
+		630CAC3A1C5F4DD9A6E47772 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */ = {isa = PBXBuildFile; fileRef = 906EBF10F14C4592B887C354 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */; };
+		68BEB8D0B6F84A12B0515BBA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */ = {isa = PBXBuildFile; fileRef = 779B15AD258F48E498EBC992 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */; };
+		74E57F40AB234B2AA97775DD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */ = {isa = PBXBuildFile; fileRef = F2CB70DA50C4474FBE12BA00 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */; };
+		799993E6E5F6408CA0FB2107 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */ = {isa = PBXBuildFile; fileRef = C7E2136DCB3F40D9AB6AC700 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */; };
+		85EFB2F07B1F462681F1DCAF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */ = {isa = PBXBuildFile; fileRef = A6F53F240A3349A38723A9FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */; };
+		8F0F0767F4814B61B2996455 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */ = {isa = PBXBuildFile; fileRef = A1F490BC8F2F44349CF32CD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */; };
+		9F6FAC6ED95D47AC906A6B4E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */ = {isa = PBXBuildFile; fileRef = 39E3B7154B2E4494BC99ADE2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */; };
+		A3C9EA521E3E44DFBCEA06EF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */ = {isa = PBXBuildFile; fileRef = 0F68A7A9FC5D41E28E63B852 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */; };
+		A4FA5D21CD004E2B886A3534 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */ = {isa = PBXBuildFile; fileRef = BB019F6137E342F2A079CE33 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */; };
+		A52A62156B2044C2BDF97BD6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */ = {isa = PBXBuildFile; fileRef = 6DFF6DEFC68E4D42BB93CA9B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */; };
+		A9D225D7D2E94823A7085327 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A06B2443D70C4CCFAB19D408 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */; };
+		AB02A0B12670492CACC20800 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */ = {isa = PBXBuildFile; fileRef = 2E49D6D3FB51462292534184 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */; };
+		AB406DD8C122416780227379 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */ = {isa = PBXBuildFile; fileRef = 5014DA967A14408F824FF6CE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */; };
+		B3B21997F15544C79BA36390 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */ = {isa = PBXBuildFile; fileRef = 12C6F110E5FA44ADBA05D563 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */; };
+		B59AF01065FD4D1FA3A4171D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */ = {isa = PBXBuildFile; fileRef = 3B19658D1D4144B8A6BF4CF6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */; };
+		B908FFFF0B4E4A5A8D98BBD0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */ = {isa = PBXBuildFile; fileRef = FE4040B2BFA04E9B92F50D7A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */; };
+		B9D0D9F2AC39436FA1E7A887 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/binomialTree.hpp */ = {isa = PBXBuildFile; fileRef = 4D45F10CAB174DE2B600F43E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/binomialTree.hpp */; };
+		BB73916C07C54F0FB5499F73 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */ = {isa = PBXBuildFile; fileRef = 7C5354D6D49F488F89DE8DCF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */; };
+		BC6A9971386C466FAF33EF45 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */ = {isa = PBXBuildFile; fileRef = E2523F0B07BC47F0A1F5BD38 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */; };
+		BF1F0F7FA4494F98938E7A02 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeAmerican.hpp */ = {isa = PBXBuildFile; fileRef = 52A020B340BC48B8AEFA0EF6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeAmerican.hpp */; };
+		C09DADB2113E47EA99E35A81 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp */ = {isa = PBXBuildFile; fileRef = 7F22B4A643644D5980A56DED /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp */; };
+		CA914158BBE04939951A9F75 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */ = {isa = PBXBuildFile; fileRef = CE4C25859AA94C2D8A8B8AA0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */; };
+		D694838C48EB4D8BBFA6B96F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */ = {isa = PBXBuildFile; fileRef = B6296F57B0204AD7A8C0EB93 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */; };
+		D81E5CE45ABA4A5F8C99994B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */ = {isa = PBXBuildFile; fileRef = 7737C6234AE04F668F0A99BA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */; };
+		D8E6D434A2934F5AB3E7C1B8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */ = {isa = PBXBuildFile; fileRef = 2D80942073A1432595750847 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */; };
+		DB1FC0A5E0734E2FA870C9E9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp */ = {isa = PBXBuildFile; fileRef = B59FE7161439413CA4BC4D5F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp */; };
+		DD48E36C52B9481396A3DBCB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */ = {isa = PBXBuildFile; fileRef = 6CDC9BEDCBC24CFDA93578EE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */; };
+		DF986A5791A24F57AB0D2875 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeEuropean.hpp */ = {isa = PBXBuildFile; fileRef = 073BB621C6B246DD942DF7D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeEuropean.hpp */; };
+		E109A45F8A1047C3BF13BA3C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */ = {isa = PBXBuildFile; fileRef = 9AC25298B18C4C6698494615 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */; };
+		E77A60BDE15540368446545A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */ = {isa = PBXBuildFile; fileRef = 2480E6A716B44988A05D9A13 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */; };
+		F46377B9F3694DD69E54274B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */ = {isa = PBXBuildFile; fileRef = D55D385221CA49E9BBC09750 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */; };
+		F5994F95274146E0B1141971 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */ = {isa = PBXBuildFile; fileRef = 52A7364F79CB4565B49CDA8C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */; };
+		F62BF069C0134E0C9FB8AB02 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */ = {isa = PBXBuildFile; fileRef = EC20435B9BC344F0B6FE9F70 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */; };
+		F945804EABA44178A9590CC3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */ = {isa = PBXBuildFile; fileRef = 1D5CCFB9CE054C33A4107AB5 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */; };
+		FD5918F18CE14731A46DA4FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */ = {isa = PBXBuildFile; fileRef = 55C90322C50840C284B3879D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */; };
+		FED7DB5FCFCD48B291F8C46A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */ = {isa = PBXBuildFile; fileRef = 034EB31CAB234426AC74C952 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */; };
+		FF787BF28114479BA6B593F3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */ = {isa = PBXBuildFile; fileRef = AD2C0837F71F48E9A319A752 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		199E7AEFA15741E2B3154A41 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		6A0CF21C1FEF4CA9A078875B /* Release */ = {
+		464DEDC4E8664783B824C575 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		A348F6F67BAC45F4BF9985BC /* MinSizeRel */ = {
+		BCBD4112D9E841DBAE5349BD /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		B3544E02CD01457AA5B188E7 /* RelWithDebInfo */ = {
+		C27BD0B34182421A970787E3 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		D1DDD4B06D0949EAA1555A8B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		17F0246499D44339AAD99F05 /* PBXContainerItemProxy */ = {
+		1B4970D0435D424B9CCB98A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB5F0AF96B7040BF87E84C9D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 226D61337FAB4487AF3AE96A;
 			remoteInfo = ZERO_CHECK;
 		};
-		3C993EF721054F57A92ED9E5 /* PBXContainerItemProxy */ = {
+		BA4E238E9D3941E3A65D1D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5F0AF96B7040BF87E84C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226D61337FAB4487AF3AE96A;
+			remoteInfo = ZERO_CHECK;
+		};
+		BF34FC8FA8324CBC82356E26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB5F0AF96B7040BF87E84C9D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B87428A0020F41D9BD076382;
 			remoteInfo = ALL_BUILD;
 		};
-		9B31A1EF52E647CE996D7367 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB5F0AF96B7040BF87E84C9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 226D61337FAB4487AF3AE96A;
-			remoteInfo = ZERO_CHECK;
-		};
-		D0FE7C83AE9544E68C2AF839 /* PBXContainerItemProxy */ = {
+		C01FD8805A284AD6B1F0C045 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB5F0AF96B7040BF87E84C9D /* Project object */;
 			proxyType = 1;
@@ -157,58 +169,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A2A46E65D247128E411F5E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parkMiller.hpp; path = include/dpJoshi_bits/parkMiller.hpp; sourceTree = SOURCE_ROOT; };
-		01A8E610B4114238A36C253D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = antithetic.cpp; path = src/antithetic.cpp; sourceTree = SOURCE_ROOT; };
-		03C90918E59D4C1B9B360460 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/dpJoshi_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
-		06CC111A3A064544951D2314 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random1.cpp; path = src/random1.cpp; sourceTree = SOURCE_ROOT; };
-		0967414E1F474AEABB4E14CA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1483D84E86C246688F816987 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exoticBSEngine.hpp; path = include/dpJoshi_bits/exoticBSEngine.hpp; sourceTree = SOURCE_ROOT; };
-		17262A2D0D474F809D22D811 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameters.cpp; path = src/parameters.cpp; sourceTree = SOURCE_ROOT; };
-		1B20C8BEF47841F08714F4BC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pathDependentAsian.cpp; path = src/pathDependentAsian.cpp; sourceTree = SOURCE_ROOT; };
-		238EBD16C0C44ED8A30C5788 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanilla2.hpp; path = include/dpJoshi_bits/vanilla2.hpp; sourceTree = SOURCE_ROOT; };
-		2DBEA745349C48B1A6FE8DFD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pathDependent.hpp; path = include/dpJoshi_bits/pathDependent.hpp; sourceTree = SOURCE_ROOT; };
-		30C260DC97F24CF183C0FA15 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = normals.hpp; path = include/dpJoshi_bits/normals.hpp; sourceTree = SOURCE_ROOT; };
-		3826D0B31D444227AFCD726F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanilla1.hpp; path = include/dpJoshi_bits/vanilla1.hpp; sourceTree = SOURCE_ROOT; };
-		38E280ABF0684E4382157273 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffBridge.cpp; path = src/payoffBridge.cpp; sourceTree = SOURCE_ROOT; };
-		38E73B99C65F44AABB965A5C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = wrapper.hpp; path = include/dpJoshi_bits/wrapper.hpp; sourceTree = SOURCE_ROOT; };
-		396C0A9EAE3E444790D696D9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
-		457AB23657244CC9B0596839 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random2.hpp; path = include/dpJoshi_bits/random2.hpp; sourceTree = SOURCE_ROOT; };
-		46732D537BC646B1A8FE9296 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convergenceTable.cpp; path = src/convergenceTable.cpp; sourceTree = SOURCE_ROOT; };
-		4CE4CF8D628049E985DD3285 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arrays.hpp; path = include/dpJoshi_bits/arrays.hpp; sourceTree = SOURCE_ROOT; };
-		59528E8F8F9B4E9B8BE6F3E2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random1.hpp; path = include/dpJoshi_bits/random1.hpp; sourceTree = SOURCE_ROOT; };
-		6233992002D64BAABAE170EF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normals.cpp; path = src/normals.cpp; sourceTree = SOURCE_ROOT; };
-		66D93A519465447BB9608EAB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanilla1.cpp; path = src/vanilla1.cpp; sourceTree = SOURCE_ROOT; };
-		6FF8F4763E0241B193C7D10D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanilla3.hpp; path = include/dpJoshi_bits/vanilla3.hpp; sourceTree = SOURCE_ROOT; };
-		7F465B09AC924DCFAA648B15 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff2.hpp; path = include/dpJoshi_bits/payoff2.hpp; sourceTree = SOURCE_ROOT; };
-		80EFABD9040F4C3F9D49F24E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pathDependentAsian.hpp; path = include/dpJoshi_bits/pathDependentAsian.hpp; sourceTree = SOURCE_ROOT; };
-		925884E3E460408599A9D628 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arrays.cpp; path = src/arrays.cpp; sourceTree = SOURCE_ROOT; };
-		99F02B2136654146B950E4CD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convergenceTable.hpp; path = include/dpJoshi_bits/convergenceTable.hpp; sourceTree = SOURCE_ROOT; };
-		9C40397BDBDA460C8E8DAA8B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff3.hpp; path = include/dpJoshi_bits/payoff3.hpp; sourceTree = SOURCE_ROOT; };
-		9E64BB01AAFB494F8CC3527A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simpleMC.cpp; path = src/simpleMC.cpp; sourceTree = SOURCE_ROOT; };
-		A039A867AF794FE1AA0CBC42 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoff3.cpp; path = src/payoff3.cpp; sourceTree = SOURCE_ROOT; };
-		A5F510E7E6CE47BFBC520A88 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoff2.cpp; path = src/payoff2.cpp; sourceTree = SOURCE_ROOT; };
-		A6705D1FD6274ECBB296DC6A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mcStatistics.hpp; path = include/dpJoshi_bits/mcStatistics.hpp; sourceTree = SOURCE_ROOT; };
-		ACF2CBD5152F4BE3857038BE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = antithetic.hpp; path = include/dpJoshi_bits/antithetic.hpp; sourceTree = SOURCE_ROOT; };
-		ADF47C2922DB4383A60B9D41 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoff1.cpp; path = src/payoff1.cpp; sourceTree = SOURCE_ROOT; };
-		B2808603D7814FA79BD510FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mcStatistics.cpp; path = src/mcStatistics.cpp; sourceTree = SOURCE_ROOT; };
-		B33EECE059074F64A2C735DE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exoticEngine.hpp; path = include/dpJoshi_bits/exoticEngine.hpp; sourceTree = SOURCE_ROOT; };
-		B4792EAA62184837832AF215 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanilla2.cpp; path = src/vanilla2.cpp; sourceTree = SOURCE_ROOT; };
-		B68EB583A1E44C2CADF1B97B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exoticBSEngine.cpp; path = src/exoticBSEngine.cpp; sourceTree = SOURCE_ROOT; };
-		BA4544DF382F42A688B1929F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parkMiller.cpp; path = src/parkMiller.cpp; sourceTree = SOURCE_ROOT; };
-		BB8B0B0C863645EF8CBFB839 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		BF518F23CCBD4FB992C65683 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exoticEngine.cpp; path = src/exoticEngine.cpp; sourceTree = SOURCE_ROOT; };
-		C32845851A6A48B0BD2882D6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanilla3.cpp; path = src/vanilla3.cpp; sourceTree = SOURCE_ROOT; };
-		C39866E07F584489A9BA5C51 /* dpJoshi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libdpJoshi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		C534FE930BAB4FF0845C3E1F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pathDependent.cpp; path = src/pathDependent.cpp; sourceTree = SOURCE_ROOT; };
-		CDC25A68AEA44B868D902BEF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff1.hpp; path = include/dpJoshi_bits/payoff1.hpp; sourceTree = SOURCE_ROOT; };
-		E16CDCDCAB974DDE9E8E49BE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random2.cpp; path = src/random2.cpp; sourceTree = SOURCE_ROOT; };
-		F46A5FD905B242D2A4AC47CA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffBridge.hpp; path = include/dpJoshi_bits/payoffBridge.hpp; sourceTree = SOURCE_ROOT; };
-		F939DB8469664319BB9D5366 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parameters.hpp; path = include/dpJoshi_bits/parameters.hpp; sourceTree = SOURCE_ROOT; };
-		FFA077E4DF0A4B2BB2596169 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = simpleMC.hpp; path = include/dpJoshi_bits/simpleMC.hpp; sourceTree = SOURCE_ROOT; };
+		034EB31CAB234426AC74C952 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanilla1.cpp; path = src/vanilla1.cpp; sourceTree = SOURCE_ROOT; };
+		073BB621C6B246DD942DF7D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeEuropean.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = treeEuropean.hpp; path = include/dpJoshi_bits/treeEuropean.hpp; sourceTree = SOURCE_ROOT; };
+		075B8844625E4B10AD61B406 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pathDependentAsian.hpp; path = include/dpJoshi_bits/pathDependentAsian.hpp; sourceTree = SOURCE_ROOT; };
+		0F68A7A9FC5D41E28E63B852 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arrays.hpp; path = include/dpJoshi_bits/arrays.hpp; sourceTree = SOURCE_ROOT; };
+		127EEF84142A452F8FAAEDEC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exoticBSEngine.cpp; path = src/exoticBSEngine.cpp; sourceTree = SOURCE_ROOT; };
+		12C6F110E5FA44ADBA05D563 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parkMiller.hpp; path = include/dpJoshi_bits/parkMiller.hpp; sourceTree = SOURCE_ROOT; };
+		1D5CCFB9CE054C33A4107AB5 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parkMiller.cpp; path = src/parkMiller.cpp; sourceTree = SOURCE_ROOT; };
+		1E51D0C2C4544008B67C9249 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = antithetic.hpp; path = include/dpJoshi_bits/antithetic.hpp; sourceTree = SOURCE_ROOT; };
+		225CC16A9B404389B635FA03 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		22D54EBE5C81438BBC6AE6DF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = treeProducts.cpp; path = src/treeProducts.cpp; sourceTree = SOURCE_ROOT; };
+		2480E6A716B44988A05D9A13 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mcStatistics.cpp; path = src/mcStatistics.cpp; sourceTree = SOURCE_ROOT; };
+		2D80942073A1432595750847 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pathDependent.hpp; path = include/dpJoshi_bits/pathDependent.hpp; sourceTree = SOURCE_ROOT; };
+		2E49D6D3FB51462292534184 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoff1.cpp; path = src/payoff1.cpp; sourceTree = SOURCE_ROOT; };
+		39E3B7154B2E4494BC99ADE2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanilla1.hpp; path = include/dpJoshi_bits/vanilla1.hpp; sourceTree = SOURCE_ROOT; };
+		3B19658D1D4144B8A6BF4CF6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pathDependentAsian.cpp; path = src/pathDependentAsian.cpp; sourceTree = SOURCE_ROOT; };
+		4D45F10CAB174DE2B600F43E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/binomialTree.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binomialTree.hpp; path = include/dpJoshi_bits/binomialTree.hpp; sourceTree = SOURCE_ROOT; };
+		5014DA967A14408F824FF6CE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff2.hpp; path = include/dpJoshi_bits/payoff2.hpp; sourceTree = SOURCE_ROOT; };
+		52A020B340BC48B8AEFA0EF6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeAmerican.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = treeAmerican.hpp; path = include/dpJoshi_bits/treeAmerican.hpp; sourceTree = SOURCE_ROOT; };
+		52A7364F79CB4565B49CDA8C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normals.cpp; path = src/normals.cpp; sourceTree = SOURCE_ROOT; };
+		532B93AD71F14A53999169D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanilla3.cpp; path = src/vanilla3.cpp; sourceTree = SOURCE_ROOT; };
+		55C90322C50840C284B3879D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanilla3.hpp; path = include/dpJoshi_bits/vanilla3.hpp; sourceTree = SOURCE_ROOT; };
+		568C6F7BB80B4F8DA6977D12 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/blackScholesFormulas.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blackScholesFormulas.hpp; path = include/dpJoshi_bits/blackScholesFormulas.hpp; sourceTree = SOURCE_ROOT; };
+		604F5FC54EA64BB4858A3786 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binomialTree.cpp; path = src/binomialTree.cpp; sourceTree = SOURCE_ROOT; };
+		61CFB12431F545F8B1029847 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exoticBSEngine.hpp; path = include/dpJoshi_bits/exoticBSEngine.hpp; sourceTree = SOURCE_ROOT; };
+		6CDC9BEDCBC24CFDA93578EE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parameters.hpp; path = include/dpJoshi_bits/parameters.hpp; sourceTree = SOURCE_ROOT; };
+		6DB6A662131441C2B6434A6F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff1.hpp; path = include/dpJoshi_bits/payoff1.hpp; sourceTree = SOURCE_ROOT; };
+		6DFF6DEFC68E4D42BB93CA9B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoff3.cpp; path = src/payoff3.cpp; sourceTree = SOURCE_ROOT; };
+		7601056E944F484398ED47AA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exoticEngine.cpp; path = src/exoticEngine.cpp; sourceTree = SOURCE_ROOT; };
+		7737C6234AE04F668F0A99BA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pathDependent.cpp; path = src/pathDependent.cpp; sourceTree = SOURCE_ROOT; };
+		779B15AD258F48E498EBC992 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameters.cpp; path = src/parameters.cpp; sourceTree = SOURCE_ROOT; };
+		77B788B83BCB470C9221C472 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convergenceTable.cpp; path = src/convergenceTable.cpp; sourceTree = SOURCE_ROOT; };
+		7C5354D6D49F488F89DE8DCF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mcStatistics.hpp; path = include/dpJoshi_bits/mcStatistics.hpp; sourceTree = SOURCE_ROOT; };
+		7F22B4A643644D5980A56DED /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = treeAmerican.cpp; path = src/treeAmerican.cpp; sourceTree = SOURCE_ROOT; };
+		8B6748602E744530AADCBDD6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff3.hpp; path = include/dpJoshi_bits/payoff3.hpp; sourceTree = SOURCE_ROOT; };
+		906EBF10F14C4592B887C354 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffBridge.cpp; path = src/payoffBridge.cpp; sourceTree = SOURCE_ROOT; };
+		946F81E5A5F14748977D8570 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random1.hpp; path = include/dpJoshi_bits/random1.hpp; sourceTree = SOURCE_ROOT; };
+		948F9F20723746F49945C73F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blackScholesFormulas.cpp; path = src/blackScholesFormulas.cpp; sourceTree = SOURCE_ROOT; };
+		96908A69BFCA418DA6F384B0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffForward.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffForward.hpp; path = include/dpJoshi_bits/payoffForward.hpp; sourceTree = SOURCE_ROOT; };
+		9AC25298B18C4C6698494615 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = wrapper.hpp; path = include/dpJoshi_bits/wrapper.hpp; sourceTree = SOURCE_ROOT; };
+		9DE39FA2AB12425F951E61A9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffForward.cpp; path = src/payoffForward.cpp; sourceTree = SOURCE_ROOT; };
+		A06B2443D70C4CCFAB19D408 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A1F490BC8F2F44349CF32CD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoff2.cpp; path = src/payoff2.cpp; sourceTree = SOURCE_ROOT; };
+		A6F53F240A3349A38723A9FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanilla2.hpp; path = include/dpJoshi_bits/vanilla2.hpp; sourceTree = SOURCE_ROOT; };
+		ACECA19A74DC4541AA73F029 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = antithetic.cpp; path = src/antithetic.cpp; sourceTree = SOURCE_ROOT; };
+		AD2C0837F71F48E9A319A752 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random2.cpp; path = src/random2.cpp; sourceTree = SOURCE_ROOT; };
+		B59FE7161439413CA4BC4D5F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = treeEuropean.cpp; path = src/treeEuropean.cpp; sourceTree = SOURCE_ROOT; };
+		B6296F57B0204AD7A8C0EB93 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffBridge.hpp; path = include/dpJoshi_bits/payoffBridge.hpp; sourceTree = SOURCE_ROOT; };
+		BB019F6137E342F2A079CE33 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanilla2.cpp; path = src/vanilla2.cpp; sourceTree = SOURCE_ROOT; };
+		C635AA4BBFDA4650BD62A08C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeProducts.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = treeProducts.hpp; path = include/dpJoshi_bits/treeProducts.hpp; sourceTree = SOURCE_ROOT; };
+		C7E2136DCB3F40D9AB6AC700 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = simpleMC.hpp; path = include/dpJoshi_bits/simpleMC.hpp; sourceTree = SOURCE_ROOT; };
+		CE4C25859AA94C2D8A8B8AA0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exoticEngine.hpp; path = include/dpJoshi_bits/exoticEngine.hpp; sourceTree = SOURCE_ROOT; };
+		D55D385221CA49E9BBC09750 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = normals.hpp; path = include/dpJoshi_bits/normals.hpp; sourceTree = SOURCE_ROOT; };
+		DFD1FAD2D5BF414496044C69 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random2.hpp; path = include/dpJoshi_bits/random2.hpp; sourceTree = SOURCE_ROOT; };
+		E2523F0B07BC47F0A1F5BD38 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simpleMC.cpp; path = src/simpleMC.cpp; sourceTree = SOURCE_ROOT; };
+		E348594BE56E4C049BB3DA59 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/dpJoshi_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
+		E41CCB82BA70421EA1B96FD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
+		EC20435B9BC344F0B6FE9F70 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arrays.cpp; path = src/arrays.cpp; sourceTree = SOURCE_ROOT; };
+		EEAD2655418E4943B8EDE7B9 /* dpJoshi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libdpJoshi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CB70DA50C4474FBE12BA00 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = convergenceTable.hpp; path = include/dpJoshi_bits/convergenceTable.hpp; sourceTree = SOURCE_ROOT; };
+		FE4040B2BFA04E9B92F50D7A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = random1.cpp; path = src/random1.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		466AEC4E661F4C01A64494E1 /* Frameworks */ = {
+		86E98E336BA241A989DD6037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,122 +242,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147EC6300EA74D7DA7945544 /* dpJoshi_bits */ = {
+		00E6AF198FC74E22B19480B3 /* dpJoshi_bits */ = {
 			isa = PBXGroup;
 			children = (
-				ACF2CBD5152F4BE3857038BE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */,
-				4CE4CF8D628049E985DD3285 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */,
-				99F02B2136654146B950E4CD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */,
-				1483D84E86C246688F816987 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */,
-				B33EECE059074F64A2C735DE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */,
-				03C90918E59D4C1B9B360460 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */,
-				A6705D1FD6274ECBB296DC6A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */,
-				30C260DC97F24CF183C0FA15 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */,
-				F939DB8469664319BB9D5366 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */,
-				00A2A46E65D247128E411F5E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */,
-				2DBEA745349C48B1A6FE8DFD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */,
-				80EFABD9040F4C3F9D49F24E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */,
-				CDC25A68AEA44B868D902BEF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */,
-				7F465B09AC924DCFAA648B15 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */,
-				9C40397BDBDA460C8E8DAA8B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */,
-				F46A5FD905B242D2A4AC47CA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */,
-				59528E8F8F9B4E9B8BE6F3E2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */,
-				457AB23657244CC9B0596839 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */,
-				FFA077E4DF0A4B2BB2596169 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */,
-				3826D0B31D444227AFCD726F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */,
-				238EBD16C0C44ED8A30C5788 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */,
-				6FF8F4763E0241B193C7D10D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */,
-				38E73B99C65F44AABB965A5C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */,
+				1E51D0C2C4544008B67C9249 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp */,
+				0F68A7A9FC5D41E28E63B852 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp */,
+				4D45F10CAB174DE2B600F43E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/binomialTree.hpp */,
+				568C6F7BB80B4F8DA6977D12 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/blackScholesFormulas.hpp */,
+				F2CB70DA50C4474FBE12BA00 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/convergenceTable.hpp */,
+				61CFB12431F545F8B1029847 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp */,
+				CE4C25859AA94C2D8A8B8AA0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp */,
+				E348594BE56E4C049BB3DA59 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/intro.hpp */,
+				7C5354D6D49F488F89DE8DCF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/mcStatistics.hpp */,
+				D55D385221CA49E9BBC09750 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp */,
+				6CDC9BEDCBC24CFDA93578EE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parameters.hpp */,
+				12C6F110E5FA44ADBA05D563 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp */,
+				2D80942073A1432595750847 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp */,
+				075B8844625E4B10AD61B406 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp */,
+				6DB6A662131441C2B6434A6F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff1.hpp */,
+				5014DA967A14408F824FF6CE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff2.hpp */,
+				8B6748602E744530AADCBDD6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoff3.hpp */,
+				B6296F57B0204AD7A8C0EB93 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffBridge.hpp */,
+				96908A69BFCA418DA6F384B0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffForward.hpp */,
+				946F81E5A5F14748977D8570 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random1.hpp */,
+				DFD1FAD2D5BF414496044C69 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/random2.hpp */,
+				C7E2136DCB3F40D9AB6AC700 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/simpleMC.hpp */,
+				52A020B340BC48B8AEFA0EF6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeAmerican.hpp */,
+				073BB621C6B246DD942DF7D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeEuropean.hpp */,
+				C635AA4BBFDA4650BD62A08C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/treeProducts.hpp */,
+				39E3B7154B2E4494BC99ADE2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla1.hpp */,
+				A6F53F240A3349A38723A9FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla2.hpp */,
+				55C90322C50840C284B3879D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/vanilla3.hpp */,
+				9AC25298B18C4C6698494615 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/wrapper.hpp */,
 			);
 			name = dpJoshi_bits;
 			sourceTree = "<group>";
 		};
-		15C730A644964B7098628C5C = {
+		24147CD3B0F64C13934790FB /* src */ = {
 			isa = PBXGroup;
 			children = (
-				5926708243BC430593223F04 /* dpJoshi */,
-				267A45BB94C843C5BC59E45C /* ALL_BUILD */,
-				5CF4F915E8CC4863895C8767 /* Products */,
-				5B322208B16048F1924D5765 /* Frameworks */,
+				ACECA19A74DC4541AA73F029 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */,
+				EC20435B9BC344F0B6FE9F70 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */,
+				604F5FC54EA64BB4858A3786 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp */,
+				948F9F20723746F49945C73F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp */,
+				77B788B83BCB470C9221C472 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */,
+				127EEF84142A452F8FAAEDEC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */,
+				7601056E944F484398ED47AA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */,
+				E41CCB82BA70421EA1B96FD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */,
+				2480E6A716B44988A05D9A13 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */,
+				52A7364F79CB4565B49CDA8C /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */,
+				779B15AD258F48E498EBC992 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */,
+				1D5CCFB9CE054C33A4107AB5 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */,
+				7737C6234AE04F668F0A99BA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */,
+				3B19658D1D4144B8A6BF4CF6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */,
+				2E49D6D3FB51462292534184 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */,
+				A1F490BC8F2F44349CF32CD2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */,
+				6DFF6DEFC68E4D42BB93CA9B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */,
+				906EBF10F14C4592B887C354 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */,
+				9DE39FA2AB12425F951E61A9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp */,
+				FE4040B2BFA04E9B92F50D7A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */,
+				AD2C0837F71F48E9A319A752 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */,
+				E2523F0B07BC47F0A1F5BD38 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */,
+				7F22B4A643644D5980A56DED /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp */,
+				B59FE7161439413CA4BC4D5F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp */,
+				22D54EBE5C81438BBC6AE6DF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp */,
+				034EB31CAB234426AC74C952 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */,
+				BB019F6137E342F2A079CE33 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */,
+				532B93AD71F14A53999169D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */,
 			);
+			name = src;
 			sourceTree = "<group>";
 		};
-		267A45BB94C843C5BC59E45C /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				6ACCDAA9C9A64961B94749DC /* CMake Rules */,
-				BB8B0B0C863645EF8CBFB839 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		5926708243BC430593223F04 /* dpJoshi */ = {
-			isa = PBXGroup;
-			children = (
-				884134E0A1914A2F9EBB0744 /* include */,
-				D34B023579A64CFAB629A57E /* src */,
-				0967414E1F474AEABB4E14CA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */,
-			);
-			name = dpJoshi;
-			sourceTree = "<group>";
-		};
-		5B322208B16048F1924D5765 /* Frameworks */ = {
+		2F43056D66824D368C8BC769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5CF4F915E8CC4863895C8767 /* Products */ = {
+		387A891EBF834C19BB2A8C8B = {
 			isa = PBXGroup;
 			children = (
-				C39866E07F584489A9BA5C51 /* dpJoshi */,
+				7B700AEA918C48C5BBFB3094 /* dpJoshi */,
+				547736269FBE4536A6829F00 /* ALL_BUILD */,
+				FA73F29AF80C4585BF35D435 /* Products */,
+				2F43056D66824D368C8BC769 /* Frameworks */,
 			);
-			name = Products;
 			sourceTree = "<group>";
 		};
-		6ACCDAA9C9A64961B94749DC /* CMake Rules */ = {
+		41F404D3C1024815A5B6B75F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				00E6AF198FC74E22B19480B3 /* dpJoshi_bits */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		53A03AB0994C4110AF9092E9 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		884134E0A1914A2F9EBB0744 /* include */ = {
+		547736269FBE4536A6829F00 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				147EC6300EA74D7DA7945544 /* dpJoshi_bits */,
+				53A03AB0994C4110AF9092E9 /* CMake Rules */,
+				225CC16A9B404389B635FA03 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */,
 			);
-			name = include;
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D34B023579A64CFAB629A57E /* src */ = {
+		7B700AEA918C48C5BBFB3094 /* dpJoshi */ = {
 			isa = PBXGroup;
 			children = (
-				01A8E610B4114238A36C253D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */,
-				925884E3E460408599A9D628 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */,
-				46732D537BC646B1A8FE9296 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */,
-				B68EB583A1E44C2CADF1B97B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */,
-				BF518F23CCBD4FB992C65683 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */,
-				396C0A9EAE3E444790D696D9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */,
-				B2808603D7814FA79BD510FD /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */,
-				6233992002D64BAABAE170EF /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */,
-				17262A2D0D474F809D22D811 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */,
-				BA4544DF382F42A688B1929F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */,
-				C534FE930BAB4FF0845C3E1F /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */,
-				1B20C8BEF47841F08714F4BC /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */,
-				ADF47C2922DB4383A60B9D41 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */,
-				A5F510E7E6CE47BFBC520A88 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */,
-				A039A867AF794FE1AA0CBC42 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */,
-				38E280ABF0684E4382157273 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */,
-				06CC111A3A064544951D2314 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */,
-				E16CDCDCAB974DDE9E8E49BE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */,
-				9E64BB01AAFB494F8CC3527A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */,
-				66D93A519465447BB9608EAB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */,
-				B4792EAA62184837832AF215 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */,
-				C32845851A6A48B0BD2882D6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */,
+				41F404D3C1024815A5B6B75F /* include */,
+				24147CD3B0F64C13934790FB /* src */,
+				A06B2443D70C4CCFAB19D408 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/CMakeLists.txt */,
 			);
-			name = src;
+			name = dpJoshi;
+			sourceTree = "<group>";
+		};
+		FA73F29AF80C4585BF35D435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD2655418E4943B8EDE7B9 /* dpJoshi */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,20 +377,20 @@
 /* Begin PBXNativeTarget section */
 		92D5E7DBA64B49E4B50A3962 /* dpJoshi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D08213048F5B46348C3B7622 /* Build configuration list for PBXNativeTarget "dpJoshi" */;
+			buildConfigurationList = 455DB443D33B4EC5AC9E6FF7 /* Build configuration list for PBXNativeTarget "dpJoshi" */;
 			buildPhases = (
-				A4DE5746314C403DBDC43169 /* Sources */,
-				466AEC4E661F4C01A64494E1 /* Frameworks */,
+				EE6CB937F9794D478D5D414E /* Sources */,
+				86E98E336BA241A989DD6037 /* Frameworks */,
 				DE36DD8EEC7EB9A9AABBD56C /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1DC0B32AD79A426AB33BBD3E /* PBXTargetDependency */,
+				AAAAFAEC3EE9417B9124357F /* PBXTargetDependency */,
 			);
 			name = dpJoshi;
 			productName = dpJoshi;
-			productReference = C39866E07F584489A9BA5C51 /* dpJoshi */;
+			productReference = EEAD2655418E4943B8EDE7B9 /* dpJoshi */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -366,18 +402,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = F4E27828DAEC4F54A5BE61B8 /* Build configuration list for PBXProject "dpJoshi" */;
+			buildConfigurationList = EB57736F8974459BBD73994F /* Build configuration list for PBXProject "dpJoshi" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				199E7AEFA15741E2B3154A41 /* Debug */,
-				6A0CF21C1FEF4CA9A078875B /* Release */,
-				A348F6F67BAC45F4BF9985BC /* MinSizeRel */,
-				B3544E02CD01457AA5B188E7 /* RelWithDebInfo */,
+				D1DDD4B06D0949EAA1555A8B /* Debug */,
+				464DEDC4E8664783B824C575 /* Release */,
+				BCBD4112D9E841DBAE5349BD /* MinSizeRel */,
+				C27BD0B34182421A970787E3 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 15C730A644964B7098628C5C;
+			mainGroup = 387A891EBF834C19BB2A8C8B;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -566,249 +602,68 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A4DE5746314C403DBDC43169 /* Sources */ = {
+		EE6CB937F9794D478D5D414E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4D0C743ACE41588D893E34 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */,
-				2448F9E726DB424C8DD11D2B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */,
-				99185BFEB92849F8A8D0E749 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */,
-				48E0C3CA91C44B61B9BFABF0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */,
-				5A6F3347D982400BA064F6AE /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */,
-				71F614C2D9B2448D93F19DF2 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */,
-				A634324A322F4560AE409630 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */,
-				9CC327D53BDB41B6A672F392 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */,
-				6E076716B82B43CC854D0107 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */,
-				A0514601681E41F6A25E61BB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */,
-				56198FF2AD5541F0BC9D977E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */,
-				077A5E7A4E0B4436ABA56F05 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */,
-				9306EF73E6704DD895ADF913 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */,
-				6DFB93FC636045989600CDB8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */,
-				328B171E3DDA4101A94B0C80 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */,
-				BD4E7493C6A44870BA851DC8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */,
-				E792979CE47F438B9A847711 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */,
-				8C32A56349654EB9899D8DD3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */,
-				D7D4381F977548528172E1D3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */,
-				5399D8BB141F4105A7E3DFC6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */,
-				2F0A2657B7744257B6A37A7E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */,
-				20EF72CE9F084D259D44F78E /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */,
+				0517210879294A4E94F6980B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/antithetic.cpp */,
+				F62BF069C0134E0C9FB8AB02 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/arrays.cpp */,
+				41FE4DEA07284BB69478775D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp */,
+				08073B7A7DB445D3996CA7B5 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp */,
+				1308A4BA080A442ABFFFE5B9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/convergenceTable.cpp */,
+				4197C8081EAD46AA8CC72983 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticBSEngine.cpp */,
+				23D4AD996B644E59834E1983 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/exoticEngine.cpp */,
+				21A5C86375224336A79689D0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/intro.cpp */,
+				E77A60BDE15540368446545A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/mcStatistics.cpp */,
+				F5994F95274146E0B1141971 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/normals.cpp */,
+				68BEB8D0B6F84A12B0515BBA /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parameters.cpp */,
+				F945804EABA44178A9590CC3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/parkMiller.cpp */,
+				D81E5CE45ABA4A5F8C99994B /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependent.cpp */,
+				B59AF01065FD4D1FA3A4171D /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp */,
+				AB02A0B12670492CACC20800 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff1.cpp */,
+				8F0F0767F4814B61B2996455 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff2.cpp */,
+				A52A62156B2044C2BDF97BD6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoff3.cpp */,
+				630CAC3A1C5F4DD9A6E47772 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffBridge.cpp */,
+				151F6BE4AB374AE69A30FCEB /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp */,
+				B908FFFF0B4E4A5A8D98BBD0 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random1.cpp */,
+				FF787BF28114479BA6B593F3 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/random2.cpp */,
+				BC6A9971386C466FAF33EF45 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/simpleMC.cpp */,
+				C09DADB2113E47EA99E35A81 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp */,
+				DB1FC0A5E0734E2FA870C9E9 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp */,
+				093E19FBC2CE48AA8BC1ADB8 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp */,
+				FED7DB5FCFCD48B291F8C46A /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla1.cpp */,
+				A4FA5D21CD004E2B886A3534 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla2.cpp */,
+				5984CC77A8654E0796B960A6 /* /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/vanilla3.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1DC0B32AD79A426AB33BBD3E /* PBXTargetDependency */ = {
+		483BE8C94E914A68A31383FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 226D61337FAB4487AF3AE96A /* ZERO_CHECK */;
-			targetProxy = 17F0246499D44339AAD99F05 /* PBXContainerItemProxy */;
+			targetProxy = 1B4970D0435D424B9CCB98A7 /* PBXContainerItemProxy */;
 		};
-		24DA9FAC41164FE1AC772137 /* PBXTargetDependency */ = {
+		AAAAFAEC3EE9417B9124357F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 226D61337FAB4487AF3AE96A /* ZERO_CHECK */;
-			targetProxy = 9B31A1EF52E647CE996D7367 /* PBXContainerItemProxy */;
+			targetProxy = BA4E238E9D3941E3A65D1D6D /* PBXContainerItemProxy */;
 		};
-		4DC76A4CF0734B20A0DE3C0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B87428A0020F41D9BD076382 /* ALL_BUILD */;
-			targetProxy = 3C993EF721054F57A92ED9E5 /* PBXContainerItemProxy */;
-		};
-		4E24FF1F7035450A91115D57 /* PBXTargetDependency */ = {
+		E3750107B1E24F19BCAD3D30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 92D5E7DBA64B49E4B50A3962 /* dpJoshi */;
-			targetProxy = D0FE7C83AE9544E68C2AF839 /* PBXContainerItemProxy */;
+			targetProxy = C01FD8805A284AD6B1F0C045 /* PBXContainerItemProxy */;
+		};
+		FC95155C1B3A4DF5BCCDD9A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B87428A0020F41D9BD076382 /* ALL_BUILD */;
+			targetProxy = BF34FC8FA8324CBC82356E26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		022A03B0235A49D5A05FCEF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		0B1D961C681C4E05BC2CE67E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		18E93A74AC0A4538B9E896F9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		19F0BE25A09D4912BD3C6820 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		1C175A55CD02494A9F15D5E7 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dpJoshi_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = dpJoshi;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		20A0BD82577B475CBD3E2970 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		25F7B2AC6CED49068C2570CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		2BE684F0FECE4F23B2D55307 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2CCEAC5A159F4563835CEB7F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3A85A90CCFF54D0E8B9FC545 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
-			};
-			name = Release;
-		};
-		3AF77C3DBD034A5BB7BC5E25 /* Release */ = {
+		0A6A59AA868B46D685412A09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -835,67 +690,7 @@ fi
 			};
 			name = Release;
 		};
-		53EA72BA695940289839578C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		592533773397443CA6B438C2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		908C945A7BE14F67A2C70B5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		9BD362ECD3EE4465864344BE /* Release */ = {
+		0E98A328B5B74783B22F11B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -915,7 +710,207 @@ fi
 			};
 			name = Release;
 		};
-		C83C3CF6E5C3433DABDFCCD2 /* Debug */ = {
+		2357F1CE7EA2495F8C65731D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2E3CF0DF886E45BAB295D25C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		477CC88B87BF4E8AB4CAE520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
+			};
+			name = Debug;
+		};
+		53D81E1A832E40D490C3C8A1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		58646E9015DF476CB879DECB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		72BF080149E64976A6436147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7AC4D6F37F1B4417B41581E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9524DF997311420D9B7676A4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		95D4A99CE2494DCBAFFD9366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
+			};
+			name = Release;
+		};
+		9E70D677BF5442FE87A1F777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9ED18903E54D480DABA226DA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		BFB006E621F84074844D51BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		C7D88372A68A47C7AD82DDA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -942,27 +937,94 @@ fi
 			};
 			name = Debug;
 		};
-		CE942E2BBAD8477D85D595CC /* RelWithDebInfo */ = {
+		D6B201776B8B4D68835183D7 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
-		E2CBF5AEA4AB4B708B01B3F0 /* Debug */ = {
+		EAEDF4D742AC4D5F9F348F3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ED66560650274EFDA6A5C690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		F2125ED6E574420CBEAD8B06 /* MinSizeRel */ = {
+		EDB89D70A58C40ADA3D8D3A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dpJoshi_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dpJoshi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FE9072D2B46D4C51B8BE69D6 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -989,80 +1051,60 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		FF62A85831644483BE81362E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/designPatternsJoshi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		323AAE2ABB2849C8864C02AF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		455DB443D33B4EC5AC9E6FF7 /* Build configuration list for PBXNativeTarget "dpJoshi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53EA72BA695940289839578C /* Debug */,
-				25F7B2AC6CED49068C2570CE /* Release */,
-				FF62A85831644483BE81362E /* MinSizeRel */,
-				2CCEAC5A159F4563835CEB7F /* RelWithDebInfo */,
+				C7D88372A68A47C7AD82DDA0 /* Debug */,
+				0A6A59AA868B46D685412A09 /* Release */,
+				FE9072D2B46D4C51B8BE69D6 /* MinSizeRel */,
+				EDB89D70A58C40ADA3D8D3A5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		37DFBC847BD74958943679C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		96475FB01EDE444D9FD3F7FE /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BE684F0FECE4F23B2D55307 /* Debug */,
-				9BD362ECD3EE4465864344BE /* Release */,
-				18E93A74AC0A4538B9E896F9 /* MinSizeRel */,
-				19F0BE25A09D4912BD3C6820 /* RelWithDebInfo */,
+				ED66560650274EFDA6A5C690 /* Debug */,
+				2357F1CE7EA2495F8C65731D /* Release */,
+				2E3CF0DF886E45BAB295D25C /* MinSizeRel */,
+				58646E9015DF476CB879DECB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		47397B9158BA467FB3D23E66 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		B5414169387545B1BC2819BB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				022A03B0235A49D5A05FCEF0 /* Debug */,
-				908C945A7BE14F67A2C70B5B /* Release */,
-				592533773397443CA6B438C2 /* MinSizeRel */,
-				0B1D961C681C4E05BC2CE67E /* RelWithDebInfo */,
+				9E70D677BF5442FE87A1F777 /* Debug */,
+				0E98A328B5B74783B22F11B2 /* Release */,
+				D6B201776B8B4D68835183D7 /* MinSizeRel */,
+				53D81E1A832E40D490C3C8A1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D08213048F5B46348C3B7622 /* Build configuration list for PBXNativeTarget "dpJoshi" */ = {
+		CA194FC219FC4FB0AAABF3C9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C83C3CF6E5C3433DABDFCCD2 /* Debug */,
-				3AF77C3DBD034A5BB7BC5E25 /* Release */,
-				F2125ED6E574420CBEAD8B06 /* MinSizeRel */,
-				1C175A55CD02494A9F15D5E7 /* RelWithDebInfo */,
+				72BF080149E64976A6436147 /* Debug */,
+				EAEDF4D742AC4D5F9F348F3E /* Release */,
+				9524DF997311420D9B7676A4 /* MinSizeRel */,
+				7AC4D6F37F1B4417B41581E9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F4E27828DAEC4F54A5BE61B8 /* Build configuration list for PBXProject "dpJoshi" */ = {
+		EB57736F8974459BBD73994F /* Build configuration list for PBXProject "dpJoshi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2CBF5AEA4AB4B708B01B3F0 /* Debug */,
-				3A85A90CCFF54D0E8B9FC545 /* Release */,
-				20A0BD82577B475CBD3E2970 /* MinSizeRel */,
-				CE942E2BBAD8477D85D595CC /* RelWithDebInfo */,
+				477CC88B87BF4E8AB4CAE520 /* Debug */,
+				95D4A99CE2494DCBAFFD9366 /* Release */,
+				BFB006E621F84074844D51BF /* MinSizeRel */,
+				9ED18903E54D480DABA226DA /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

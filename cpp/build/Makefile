@@ -222,6 +222,54 @@ src/arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/arrays.cpp.s
 .PHONY : src/arrays.cpp.s
 
+src/binomialTree.o: src/binomialTree.cpp.o
+.PHONY : src/binomialTree.o
+
+# target to build an object file
+src/binomialTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o
+.PHONY : src/binomialTree.cpp.o
+
+src/binomialTree.i: src/binomialTree.cpp.i
+.PHONY : src/binomialTree.i
+
+# target to preprocess a source file
+src/binomialTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.i
+.PHONY : src/binomialTree.cpp.i
+
+src/binomialTree.s: src/binomialTree.cpp.s
+.PHONY : src/binomialTree.s
+
+# target to generate assembly for a file
+src/binomialTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.s
+.PHONY : src/binomialTree.cpp.s
+
+src/blackScholesFormulas.o: src/blackScholesFormulas.cpp.o
+.PHONY : src/blackScholesFormulas.o
+
+# target to build an object file
+src/blackScholesFormulas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o
+.PHONY : src/blackScholesFormulas.cpp.o
+
+src/blackScholesFormulas.i: src/blackScholesFormulas.cpp.i
+.PHONY : src/blackScholesFormulas.i
+
+# target to preprocess a source file
+src/blackScholesFormulas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.i
+.PHONY : src/blackScholesFormulas.cpp.i
+
+src/blackScholesFormulas.s: src/blackScholesFormulas.cpp.s
+.PHONY : src/blackScholesFormulas.s
+
+# target to generate assembly for a file
+src/blackScholesFormulas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.s
+.PHONY : src/blackScholesFormulas.cpp.s
+
 src/convergenceTable.o: src/convergenceTable.cpp.o
 .PHONY : src/convergenceTable.o
 
@@ -558,6 +606,30 @@ src/payoffBridge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffBridge.cpp.s
 .PHONY : src/payoffBridge.cpp.s
 
+src/payoffForward.o: src/payoffForward.cpp.o
+.PHONY : src/payoffForward.o
+
+# target to build an object file
+src/payoffForward.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o
+.PHONY : src/payoffForward.cpp.o
+
+src/payoffForward.i: src/payoffForward.cpp.i
+.PHONY : src/payoffForward.i
+
+# target to preprocess a source file
+src/payoffForward.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.i
+.PHONY : src/payoffForward.cpp.i
+
+src/payoffForward.s: src/payoffForward.cpp.s
+.PHONY : src/payoffForward.s
+
+# target to generate assembly for a file
+src/payoffForward.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.s
+.PHONY : src/payoffForward.cpp.s
+
 src/random1.o: src/random1.cpp.o
 .PHONY : src/random1.o
 
@@ -629,6 +701,78 @@ src/simpleMC.s: src/simpleMC.cpp.s
 src/simpleMC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/simpleMC.cpp.s
 .PHONY : src/simpleMC.cpp.s
+
+src/treeAmerican.o: src/treeAmerican.cpp.o
+.PHONY : src/treeAmerican.o
+
+# target to build an object file
+src/treeAmerican.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o
+.PHONY : src/treeAmerican.cpp.o
+
+src/treeAmerican.i: src/treeAmerican.cpp.i
+.PHONY : src/treeAmerican.i
+
+# target to preprocess a source file
+src/treeAmerican.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.i
+.PHONY : src/treeAmerican.cpp.i
+
+src/treeAmerican.s: src/treeAmerican.cpp.s
+.PHONY : src/treeAmerican.s
+
+# target to generate assembly for a file
+src/treeAmerican.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.s
+.PHONY : src/treeAmerican.cpp.s
+
+src/treeEuropean.o: src/treeEuropean.cpp.o
+.PHONY : src/treeEuropean.o
+
+# target to build an object file
+src/treeEuropean.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o
+.PHONY : src/treeEuropean.cpp.o
+
+src/treeEuropean.i: src/treeEuropean.cpp.i
+.PHONY : src/treeEuropean.i
+
+# target to preprocess a source file
+src/treeEuropean.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.i
+.PHONY : src/treeEuropean.cpp.i
+
+src/treeEuropean.s: src/treeEuropean.cpp.s
+.PHONY : src/treeEuropean.s
+
+# target to generate assembly for a file
+src/treeEuropean.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.s
+.PHONY : src/treeEuropean.cpp.s
+
+src/treeProducts.o: src/treeProducts.cpp.o
+.PHONY : src/treeProducts.o
+
+# target to build an object file
+src/treeProducts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o
+.PHONY : src/treeProducts.cpp.o
+
+src/treeProducts.i: src/treeProducts.cpp.i
+.PHONY : src/treeProducts.i
+
+# target to preprocess a source file
+src/treeProducts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.i
+.PHONY : src/treeProducts.cpp.i
+
+src/treeProducts.s: src/treeProducts.cpp.s
+.PHONY : src/treeProducts.s
+
+# target to generate assembly for a file
+src/treeProducts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.s
+.PHONY : src/treeProducts.cpp.s
 
 src/vanilla1.o: src/vanilla1.cpp.o
 .PHONY : src/vanilla1.o
@@ -721,6 +865,12 @@ help:
 	@echo "... src/arrays.o"
 	@echo "... src/arrays.i"
 	@echo "... src/arrays.s"
+	@echo "... src/binomialTree.o"
+	@echo "... src/binomialTree.i"
+	@echo "... src/binomialTree.s"
+	@echo "... src/blackScholesFormulas.o"
+	@echo "... src/blackScholesFormulas.i"
+	@echo "... src/blackScholesFormulas.s"
 	@echo "... src/convergenceTable.o"
 	@echo "... src/convergenceTable.i"
 	@echo "... src/convergenceTable.s"
@@ -763,6 +913,9 @@ help:
 	@echo "... src/payoffBridge.o"
 	@echo "... src/payoffBridge.i"
 	@echo "... src/payoffBridge.s"
+	@echo "... src/payoffForward.o"
+	@echo "... src/payoffForward.i"
+	@echo "... src/payoffForward.s"
 	@echo "... src/random1.o"
 	@echo "... src/random1.i"
 	@echo "... src/random1.s"
@@ -772,6 +925,15 @@ help:
 	@echo "... src/simpleMC.o"
 	@echo "... src/simpleMC.i"
 	@echo "... src/simpleMC.s"
+	@echo "... src/treeAmerican.o"
+	@echo "... src/treeAmerican.i"
+	@echo "... src/treeAmerican.s"
+	@echo "... src/treeEuropean.o"
+	@echo "... src/treeEuropean.i"
+	@echo "... src/treeEuropean.s"
+	@echo "... src/treeProducts.o"
+	@echo "... src/treeProducts.i"
+	@echo "... src/treeProducts.s"
 	@echo "... src/vanilla1.o"
 	@echo "... src/vanilla1.i"
 	@echo "... src/vanilla1.s"

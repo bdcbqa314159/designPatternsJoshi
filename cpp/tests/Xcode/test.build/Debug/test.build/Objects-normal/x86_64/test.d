@@ -38,4 +38,11 @@ dependencies: \
   /usr/local/include/dpJoshi_bits/./pathDependent.hpp \
   /usr/local/include/dpJoshi_bits/exoticBSEngine.hpp \
   /usr/local/include/dpJoshi_bits/./exoticEngine.hpp \
-  /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp
+  /usr/local/include/dpJoshi_bits/pathDependentAsian.hpp \
+  /usr/local/include/dpJoshi_bits/treeProducts.hpp \
+  /usr/local/include/dpJoshi_bits/treeAmerican.hpp \
+  /usr/local/include/dpJoshi_bits/./treeProducts.hpp \
+  /usr/local/include/dpJoshi_bits/treeEuropean.hpp \
+  /usr/local/include/dpJoshi_bits/binomialTree.hpp \
+  /usr/local/include/dpJoshi_bits/blackScholesFormulas.hpp \
+  /usr/local/include/dpJoshi_bits/payoffForward.hpp

@@ -465,6 +465,91 @@ int testingBSEngine(){
     return 0;
 }
 
+int testingTreePricer(){
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    double d = 0;
+    unsigned long Steps = 1000;
+
+    PayOffCall3 thePayOff(Strike);
+    
+    ParametersConstant rParam(r);
+    ParametersConstant dParam(d);
+    
+    TreeEuropean euroOption(Expiry, thePayOff);
+//    TreeAmerican amOption(*expiry, thePayOff);
+    
+    SimpleBinomialTree theTree(Spot, rParam, dParam, Vol, Steps, Expiry);
+    
+    double euroPrice = theTree.GetThePrice(euroOption);
+//    double amPrice = theTree.GetThePrice(amOption);
+    
+    std::cout<<"euro Price tree : ";
+    //From another book - price has to be around "Call Price : 10.4506"
+    std::cout<<euroPrice<<std::endl;
+    
+//    std::cout<<"am Price tree : ";
+//    std::cout<<amPrice<<std::endl;
+//
+    double BSPrice = BlackScholesCall(Spot, Strike, r, d, Vol, Expiry);
+
+    std::cout<<"BS formula euro price : "<<BSPrice<<std::endl;
+
+    PayOffForward forwardPayOff(Strike);
+    TreeEuropean forward(Expiry, forwardPayOff);
+
+    double forwardPrice = theTree.GetThePrice(forward);
+
+    std::cout<<"fwd Price tree : ";
+    std::cout<<forwardPrice<<std::endl;
+
+    double actualFwdPrice = exp(-r*Expiry)*(Spot*exp((r-d)*Expiry)-Strike);
+
+    std::cout<<"fwd Price : ";
+    std::cout<<actualFwdPrice<<std::endl;
+
+    Steps++;
+    
+    SimpleBinomialTree theNewTree(Spot, rParam, dParam, Vol, Steps, Expiry);
+    
+    
+    double euroNewPrice = theNewTree.GetThePrice(euroOption);
+//    double amNewPrice = theNewTree.GetThePrice(amOption);
+//
+//    std::cout<<"new euro Price tree : ";
+//    std::cout<<euroNewPrice<<std::endl;
+//
+//    std::cout<<"new am Price tree : ";
+//    std::cout<<amNewPrice<<std::endl;
+//
+//
+    double forwardNewPrice = theNewTree.GetThePrice(forward);
+
+    std::cout<<"fwd Price tree : ";
+    std::cout<<forwardNewPrice<<std::endl;
+    
+    
+    double avEuro = 0.5*(euroPrice+euroNewPrice);
+//    double avAm = 0.5*(amPrice+amNewPrice);
+    double avFwd = 0.5*(forwardPrice+forwardNewPrice);
+//
+    std::cout<<"eur av Price: ";
+    std::cout<<avEuro<<std::endl;
+    
+//    std::cout<<"am av Price: ";
+//    std::cout<<avAm<<std::endl;
+//
+    std::cout<<"fwd av Price: ";
+    std::cout<<avFwd<<std::endl;
+
+    
+    return 0;
+}
+
 
 
 int main() {
@@ -481,7 +566,8 @@ int main() {
 //    testingSimpleMC7();
 //    testingSimpleMC7_withWrapper();
 //    testingSimpleMC8();
-    testingBSEngine();
+//    testingBSEngine();
+    testingTreePricer();
     
     
     return 0;

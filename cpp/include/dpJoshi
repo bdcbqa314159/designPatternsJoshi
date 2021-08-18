@@ -24,5 +24,12 @@
 #include "dpJoshi_bits/exoticEngine.hpp"
 #include "dpJoshi_bits/exoticBSEngine.hpp"
 #include "dpJoshi_bits/pathDependentAsian.hpp"
+#include "dpJoshi_bits/treeProducts.hpp"
+#include "dpJoshi_bits/treeAmerican.hpp"
+#include "dpJoshi_bits/treeEuropean.hpp"
+#include "dpJoshi_bits/binomialTree.hpp"
+#include "dpJoshi_bits/blackScholesFormulas.hpp"
+#include "dpJoshi_bits/payoffForward.hpp"
+
 
 #endif

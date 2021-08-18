@@ -377,6 +377,90 @@ CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/pathDependentAsian.cpp -o CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.s
 
+CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o: ../src/treeProducts.cpp
+CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o -MF CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o.d -o CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp
+
+CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp > CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.i
+
+CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeProducts.cpp -o CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.s
+
+CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o: ../src/treeAmerican.cpp
+CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o -MF CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o.d -o CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp
+
+CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp > CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.i
+
+CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeAmerican.cpp -o CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.s
+
+CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o: ../src/treeEuropean.cpp
+CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o -MF CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o.d -o CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp
+
+CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp > CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.i
+
+CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/treeEuropean.cpp -o CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.s
+
+CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o: ../src/binomialTree.cpp
+CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o -MF CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o.d -o CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp
+
+CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp > CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.i
+
+CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/binomialTree.cpp -o CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.s
+
+CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o: ../src/blackScholesFormulas.cpp
+CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o -MF CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o.d -o CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp
+
+CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp > CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.i
+
+CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/blackScholesFormulas.cpp -o CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.s
+
+CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o: CMakeFiles/dpJoshi.dir/flags.make
+CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o: ../src/payoffForward.cpp
+CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o: CMakeFiles/dpJoshi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o -MF CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o.d -o CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o -c /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp
+
+CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp > CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.i
+
+CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/designPatternsJoshi/cpp/src/payoffForward.cpp -o CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.s
+
 # Object files for target dpJoshi
 dpJoshi_OBJECTS = \
 "CMakeFiles/dpJoshi.dir/src/intro.cpp.o" \
@@ -400,7 +484,13 @@ dpJoshi_OBJECTS = \
 "CMakeFiles/dpJoshi.dir/src/pathDependent.cpp.o" \
 "CMakeFiles/dpJoshi.dir/src/exoticEngine.cpp.o" \
 "CMakeFiles/dpJoshi.dir/src/exoticBSEngine.cpp.o" \
-"CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.o"
+"CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.o" \
+"CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o" \
+"CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o" \
+"CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o" \
+"CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o" \
+"CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o" \
+"CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o"
 
 # External object files for target dpJoshi
 dpJoshi_EXTERNAL_OBJECTS =
@@ -427,9 +517,15 @@ libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/pathDependent.cpp.o
 libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/exoticEngine.cpp.o
 libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/exoticBSEngine.cpp.o
 libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/pathDependentAsian.cpp.o
+libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/treeProducts.cpp.o
+libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/treeAmerican.cpp.o
+libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/treeEuropean.cpp.o
+libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/binomialTree.cpp.o
+libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.o
+libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/src/payoffForward.cpp.o
 libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/build.make
 libdpJoshi.dylib: CMakeFiles/dpJoshi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX shared library libdpJoshi.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/designPatternsJoshi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared library libdpJoshi.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dpJoshi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
