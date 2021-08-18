@@ -14,6 +14,8 @@ void init_PathDependent(py::module &);
 void init_ExoticEngine(py::module &);
 void init_Trees(py::module &);
 void init_BS(py::module &);
+void init_BSCall(py::module &);
+void init_Solvers(py::module &);
 
 
 namespace dpj {
@@ -34,6 +36,8 @@ PYBIND11_MODULE(dpJoshi, m) {
     init_ExoticEngine(m);
     init_Trees(m);
     init_BS(m);
+    init_BSCall(m);
+    init_Solvers(m);
 
 	}
 

@@ -5104,6 +5104,10 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: ../python/dpJoshi.cpp \
   ../cpp/include/dpJoshi_bits/payoffForward.hpp \
   ../cpp/include/dpJoshi_bits/blackScholesFormulas.hpp \
   ../cpp/include/dpJoshi_bits/normals.hpp \
+  ../cpp/include/dpJoshi_bits/bsCall.hpp \
+  ../cpp/include/dpJoshi_bits/bsCall2.hpp \
+  ../cpp/include/dpJoshi_bits/bisection.hpp \
+  ../cpp/include/dpJoshi_bits/newtonRaphson.hpp \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h \
@@ -5319,6 +5323,8 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: ../python/dpJoshi.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree:
 
+../cpp/include/dpJoshi_bits/bisection.hpp:
+
 ../python/dpJoshi.cpp:
 
 /Users/bernardocohen/opt/anaconda3/include/pybind11/detail/init.h:
@@ -5398,6 +5404,8 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: ../python/dpJoshi.cpp \
 /Users/bernardocohen/opt/anaconda3/include/python3.8/namespaceobject.h:
 
 /Users/bernardocohen/opt/anaconda3/include/python3.8/traceback.h:
+
+../cpp/include/dpJoshi_bits/newtonRaphson.hpp:
 
 /Users/bernardocohen/opt/anaconda3/include/python3.8/tracemalloc.h:
 

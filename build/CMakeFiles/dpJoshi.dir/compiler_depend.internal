@@ -5136,6 +5136,10 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o
  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/payoffForward.hpp
  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/blackScholesFormulas.hpp
  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/bsCall.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/bsCall2.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/bisection.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/newtonRaphson.hpp
  /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h
  /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h
  /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h

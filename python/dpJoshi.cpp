@@ -24,6 +24,11 @@
 #include "../cpp/include/dpJoshi_bits/binomialTree.hpp"
 #include "../cpp/include/dpJoshi_bits/payoffForward.hpp"
 #include "../cpp/include/dpJoshi_bits/blackScholesFormulas.hpp"
+#include "../cpp/include/dpJoshi_bits/bsCall.hpp"
+#include "../cpp/include/dpJoshi_bits/bsCall2.hpp"
+#include "../cpp/include/dpJoshi_bits/bisection.hpp"
+#include "../cpp/include/dpJoshi_bits/newtonRaphson.hpp"
+
 
 
 #include <vector>
@@ -448,4 +453,24 @@ void init_BS(py::module &m){
     m.def("BlackScholesDigitalCall", &BlackScholesDigitalCall);
     m.def("BlackScholesDigitalPut", &BlackScholesDigitalPut);
     m.def("BlackScholesCallVega", &BlackScholesCallVega);
+}
+
+
+void init_BSCall(py::module &m){
+    
+    py::class_<BSCall> bsCall(m, "BSCall");
+    bsCall.def(py::init<double , double , double , double , double >());
+    bsCall.def("__call__", &BSCall::operator());
+
+    py::class_<BSCall2> bsCall2(m, "BSCall2");
+    bsCall2.def(py::init<double , double , double , double , double >());
+    bsCall2.def("Price", &BSCall2::Price);
+    bsCall2.def("Vega", &BSCall2::Vega);
+}
+
+
+void init_Solvers(py::module &m){
+    
+    m.def("BisectionBSCall", &Bisection<BSCall>);
+    m.def("NewtonRaphsonBSCall", &NewtonRaphson<BSCall2, &BSCall2::Price, &BSCall2::Vega>);
 }
