@@ -209,6 +209,14 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/exoticEngine.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/exoticBSEngine.hpp \
   /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./exoticEngine.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/treeProducts.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/treeEuropean.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/./treeProducts.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/treeAmerican.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/binomialTree.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/payoffForward.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/python/../cpp/include/dpJoshi_bits/blackScholesFormulas.hpp \
+  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/normals.hpp \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h \

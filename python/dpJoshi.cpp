@@ -18,6 +18,12 @@
 #include "../cpp/include/dpJoshi_bits/pathDependentAsian.hpp"
 #include "../cpp/include/dpJoshi_bits/exoticEngine.hpp"
 #include "../cpp/include/dpJoshi_bits/exoticBSEngine.hpp"
+#include "../cpp/include/dpJoshi_bits/treeProducts.hpp"
+#include "../cpp/include/dpJoshi_bits/treeEuropean.hpp"
+#include "../cpp/include/dpJoshi_bits/treeAmerican.hpp"
+#include "../cpp/include/dpJoshi_bits/binomialTree.hpp"
+#include "../cpp/include/dpJoshi_bits/payoffForward.hpp"
+#include "../cpp/include/dpJoshi_bits/blackScholesFormulas.hpp"
 
 
 #include <vector>
@@ -34,7 +40,6 @@ public:
     using PayOff::PayOff; // Inherit constructors
     double operator()(double Spot) const override { PYBIND11_OVERLOAD_PURE_NAME(double, PayOff, "__call__", operator(), Spot); }
 };
-
 
 class PyPayOff3 : public PayOff3 {
 public:
@@ -53,7 +58,6 @@ public:
         }
 
 };
-
 
 class PyParametersInner : public ParametersInner {
 public:
@@ -172,6 +176,29 @@ public:
     
 };
 
+class PyTreeProduct: public TreeProduct {
+    
+public:
+    using TreeProduct::TreeProduct;
+    
+    double FinalPayOff(double Spot) const override {
+        PYBIND11_OVERLOAD_PURE(double, PyTreeProduct, FinalPayOff, Spot);
+    }
+    
+    virtual double PreFinalValue(double Spot, double Time, double DiscountedFutureValue) const override {PYBIND11_OVERLOAD_PURE(double, PyTreeProduct, PreFinalValue, Spot, Time, DiscountedFutureValue);
+    }
+    
+    std::shared_ptr<TreeProduct> clone() const override {
+            auto self = py::cast(this);
+            auto cloned = self.attr("clone")();
+
+            auto keep_python_state_alive = std::make_shared<py::object>(cloned);
+            auto ptr = cloned.cast<PyTreeProduct*>();
+
+            // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
+            return std::shared_ptr<TreeProduct>(keep_python_state_alive, ptr);
+        }
+};
 
 
 void init_PayOff(py::module &m){
@@ -235,6 +262,9 @@ void init_PayOff(py::module &m){
     
     py::class_<VanillaOption3> vanilla3(m, "Vanilla3");
     vanilla3.def(py::init<const PayOffBridge &, double &>());
+    
+    py::class_<PayOffForward> payofffwd(m, "PayOffForward", payoff3);
+    payofffwd.def(py::init<double &>());
 }
 
 
@@ -391,4 +421,31 @@ void init_ExoticEngine(py::module &m){
     exoticbsengine.def(py::init<const Wrapper<PathDependent> &, const Parameters &,  const Parameters &, const Parameters &, const Wrapper<RandomBase> &, double &>());
     exoticbsengine.def("DoSimulation", &ExoticBSEngine::DoSimulation);
     
+}
+
+
+void init_Trees(py::module &m){
+    
+    py::class_<TreeProduct, PyTreeProduct> treeproduct(m, "TreeProduct");
+    treeproduct.def(py::init<double &>());
+
+    py::class_<TreeAmerican> treeamerican(m, "TreeAmerican", treeproduct);
+    treeamerican.def(py::init<double &, const PayOffBridge &>());
+    
+    py::class_<TreeEuropean> treeeuropean(m, "TreeEuropean", treeproduct);
+    treeeuropean.def(py::init<double &, const PayOffBridge &>());
+    
+    py::class_<SimpleBinomialTree> binomialtree(m, "SimpleBinomialTree");
+    binomialtree.def(py::init<double , const Parameters &, const Parameters &, double , unsigned long , double >());
+    binomialtree.def("GetThePrice", &SimpleBinomialTree::GetThePrice);
+    
+}
+
+void init_BS(py::module &m){
+    
+    m.def("BlackScholesCall", &BlackScholesCall);
+    m.def("BlackScholesPut", &BlackScholesPut);
+    m.def("BlackScholesDigitalCall", &BlackScholesDigitalCall);
+    m.def("BlackScholesDigitalPut", &BlackScholesDigitalPut);
+    m.def("BlackScholesCallVega", &BlackScholesCallVega);
 }

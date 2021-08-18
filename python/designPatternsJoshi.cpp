@@ -12,6 +12,8 @@ void init_MJArray(py::module &);
 void init_CashFlows(py::module &);
 void init_PathDependent(py::module &);
 void init_ExoticEngine(py::module &);
+void init_Trees(py::module &);
+void init_BS(py::module &);
 
 
 namespace dpj {
@@ -30,6 +32,8 @@ PYBIND11_MODULE(dpJoshi, m) {
     init_CashFlows(m);
     init_PathDependent(m);
     init_ExoticEngine(m);
+    init_Trees(m);
+    init_BS(m);
 
 	}
 
