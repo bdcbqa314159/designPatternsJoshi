@@ -4052,6 +4052,12 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o
  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/antithetic.hpp
  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/parkMiller.hpp
  /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/arrays.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependentAsian.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/pathDependent.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticBSEngine.hpp
+ /Users/bernardocohen/repos/designPatternsJoshi/cpp/include/dpJoshi_bits/exoticEngine.hpp
  /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h
  /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h
  /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h

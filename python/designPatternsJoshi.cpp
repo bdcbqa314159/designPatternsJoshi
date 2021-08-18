@@ -9,6 +9,9 @@ void init_Wrapper(py::module &);
 void init_MCStatistics(py::module &);
 void init_Random(py::module &);
 void init_MJArray(py::module &);
+void init_CashFlows(py::module &);
+void init_PathDependent(py::module &);
+void init_ExoticEngine(py::module &);
 
 
 namespace dpj {
@@ -24,6 +27,9 @@ PYBIND11_MODULE(dpJoshi, m) {
     init_MCStatistics(m);
     init_Random(m);
     init_MJArray(m);
+    init_CashFlows(m);
+    init_PathDependent(m);
+    init_ExoticEngine(m);
 
 	}
 

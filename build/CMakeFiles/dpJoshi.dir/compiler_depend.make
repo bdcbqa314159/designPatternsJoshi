@@ -4028,6 +4028,12 @@ CMakeFiles/dpJoshi.dir/python/dpJoshi.cpp.o: ../python/dpJoshi.cpp \
   ../cpp/include/dpJoshi_bits/antithetic.hpp \
   ../cpp/include/dpJoshi_bits/parkMiller.hpp \
   ../cpp/include/dpJoshi_bits/arrays.hpp \
+  ../cpp/include/dpJoshi_bits/pathDependent.hpp \
+  ../cpp/include/dpJoshi_bits/pathDependentAsian.hpp \
+  ../cpp/include/dpJoshi_bits/pathDependent.hpp \
+  ../cpp/include/dpJoshi_bits/exoticEngine.hpp \
+  ../cpp/include/dpJoshi_bits/exoticBSEngine.hpp \
+  ../cpp/include/dpJoshi_bits/exoticEngine.hpp \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/pybind11.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/attr.h \
   /Users/bernardocohen/opt/anaconda3/include/pybind11/cast.h \

@@ -14,6 +14,10 @@
 #include "../cpp/include/dpJoshi_bits/antithetic.hpp"
 #include "../cpp/include/dpJoshi_bits/parkMiller.hpp"
 #include "../cpp/include/dpJoshi_bits/arrays.hpp"
+#include "../cpp/include/dpJoshi_bits/pathDependent.hpp"
+#include "../cpp/include/dpJoshi_bits/pathDependentAsian.hpp"
+#include "../cpp/include/dpJoshi_bits/exoticEngine.hpp"
+#include "../cpp/include/dpJoshi_bits/exoticBSEngine.hpp"
 
 
 #include <vector>
@@ -94,6 +98,44 @@ public:
             // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
             return std::shared_ptr<StatisticsMC>(keep_python_state_alive, ptr);
         }
+};
+
+class PyPathDependent: public PathDependent {
+    
+public:
+    using PathDependent::PathDependent;
+    
+    unsigned long MaxNumberOfCashFlows() const override {
+        PYBIND11_OVERLOAD_PURE(unsigned long, PyPathDependent, MaxNumberOfCashFlows, );
+    }
+    
+    MJArray PossibleCashFlowTimes() const override {PYBIND11_OVERLOAD_PURE(MJArray, PyPathDependent, PossibleCashFlowTimes, );
+    }
+    
+    unsigned long CashFlows(const MJArray &SpotValues, std::vector<CashFlow> &GeneratedFlows) const override {PYBIND11_OVERLOAD_PURE(unsigned long, PyPathDependent, CashFlows, SpotValues, GeneratedFlows);
+    }
+    
+    std::shared_ptr<PathDependent> clone() const override {
+            auto self = py::cast(this);
+            auto cloned = self.attr("clone")();
+
+            auto keep_python_state_alive = std::make_shared<py::object>(cloned);
+            auto ptr = cloned.cast<PyPathDependent*>();
+
+            // aliasing shared_ptr: points to `A_trampoline* ptr` but refcounts the Python object
+            return std::shared_ptr<PathDependent>(keep_python_state_alive, ptr);
+        }
+};
+
+class PyExoticEngine: public ExoticEngine {
+    
+public:
+    using ExoticEngine::ExoticEngine;
+    
+    void GetOnePath(MJArray &SpotValues) override {
+        PYBIND11_OVERLOAD_PURE(void, PyExoticEngine, GetOnePath, SpotValues);
+    }
+    
 };
 
 class PyRandomBase: public RandomBase {
@@ -236,6 +278,9 @@ void init_Wrapper(py::module &m){
     wrapperRandom.def(py::init<const RandomBase &>());
     wrapperRandom.def(py::init<const Wrapper<RandomBase> &>());
     
+    py::class_<Wrapper<PathDependent>> wrapperPathDependent(m, "WrapperPathDependent");
+    wrapperPathDependent.def(py::init<const PathDependent &>());
+    wrapperPathDependent.def(py::init<const Wrapper<PathDependent> &>());
     
 }
 
@@ -316,4 +361,34 @@ void init_MJArray(py::module &m){
             { sizeof(double) * m.size()}
         );
     });
+}
+
+void init_CashFlows(py::module &m){
+    
+    py::class_<CashFlow> cashflow(m, "CashFlow");
+    
+    cashflow.def(py::init<unsigned long &, double &>());
+    
+}
+
+void init_PathDependent(py::module &m){
+    
+    py::class_<PathDependent, PyPathDependent> pathdependent(m, "PathDependent");
+    pathdependent.def(py::init<const MJArray &>());
+
+    py::class_<PathDependentAsian> pathdependentasian(m, "PathDependentAsian", pathdependent);
+    pathdependentasian.def(py::init<const MJArray &, double , const PayOffBridge &>());
+    
+}
+
+
+void init_ExoticEngine(py::module &m){
+    
+    py::class_<ExoticEngine, PyExoticEngine> exoticengine(m, "ExoticEngine");
+    exoticengine.def(py::init<const Wrapper<PathDependent> &, const Parameters &>());
+
+    py::class_<ExoticBSEngine> exoticbsengine(m, "ExoticBSEngine", exoticengine);
+    exoticbsengine.def(py::init<const Wrapper<PathDependent> &, const Parameters &,  const Parameters &, const Parameters &, const Wrapper<RandomBase> &, double &>());
+    exoticbsengine.def("DoSimulation", &ExoticBSEngine::DoSimulation);
+    
 }
