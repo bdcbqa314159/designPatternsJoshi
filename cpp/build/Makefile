@@ -270,6 +270,54 @@ src/blackScholesFormulas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/blackScholesFormulas.cpp.s
 .PHONY : src/blackScholesFormulas.cpp.s
 
+src/bsCall.o: src/bsCall.cpp.o
+.PHONY : src/bsCall.o
+
+# target to build an object file
+src/bsCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/bsCall.cpp.o
+.PHONY : src/bsCall.cpp.o
+
+src/bsCall.i: src/bsCall.cpp.i
+.PHONY : src/bsCall.i
+
+# target to preprocess a source file
+src/bsCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/bsCall.cpp.i
+.PHONY : src/bsCall.cpp.i
+
+src/bsCall.s: src/bsCall.cpp.s
+.PHONY : src/bsCall.s
+
+# target to generate assembly for a file
+src/bsCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/bsCall.cpp.s
+.PHONY : src/bsCall.cpp.s
+
+src/bsCall2.o: src/bsCall2.cpp.o
+.PHONY : src/bsCall2.o
+
+# target to build an object file
+src/bsCall2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/bsCall2.cpp.o
+.PHONY : src/bsCall2.cpp.o
+
+src/bsCall2.i: src/bsCall2.cpp.i
+.PHONY : src/bsCall2.i
+
+# target to preprocess a source file
+src/bsCall2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/bsCall2.cpp.i
+.PHONY : src/bsCall2.cpp.i
+
+src/bsCall2.s: src/bsCall2.cpp.s
+.PHONY : src/bsCall2.s
+
+# target to generate assembly for a file
+src/bsCall2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dpJoshi.dir/build.make CMakeFiles/dpJoshi.dir/src/bsCall2.cpp.s
+.PHONY : src/bsCall2.cpp.s
+
 src/convergenceTable.o: src/convergenceTable.cpp.o
 .PHONY : src/convergenceTable.o
 
@@ -871,6 +919,12 @@ help:
 	@echo "... src/blackScholesFormulas.o"
 	@echo "... src/blackScholesFormulas.i"
 	@echo "... src/blackScholesFormulas.s"
+	@echo "... src/bsCall.o"
+	@echo "... src/bsCall.i"
+	@echo "... src/bsCall.s"
+	@echo "... src/bsCall2.o"
+	@echo "... src/bsCall2.i"
+	@echo "... src/bsCall2.s"
 	@echo "... src/convergenceTable.o"
 	@echo "... src/convergenceTable.i"
 	@echo "... src/convergenceTable.s"

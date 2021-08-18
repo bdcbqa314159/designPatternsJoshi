@@ -550,6 +550,46 @@ int testingTreePricer(){
     return 0;
 }
 
+int testingBisection(){
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    double d = 0;
+    double tolerance = 0.0001;
+    
+    BSCall theCall(r,d,Expiry,Spot,Strike);
+//    double vol = Bisection<BSCall>(10.4506, 0., 4., tolerance, theCall);
+    double vol = Bisection(10.4506, 0., 4., tolerance, theCall);
+    
+    double PriceTwo = BlackScholesCall(Spot, Strike, r, d, Vol, Expiry);
+    
+    std::cout<<"vol found : "<<vol<<" - price 2 : "<<PriceTwo<<std::endl;
+    
+    return 0;
+}
+
+int testingNewtonRaphson(){
+    
+    double Expiry = 1.;
+    double Strike = 100;
+    double Spot = 100;
+    double Vol = 0.2;
+    double r = 0.05;
+    double d = 0;
+    double tolerance = 0.0001;
+        
+    BSCall2 theCall(r,d,Expiry,Spot,Strike);
+    double PriceTwo = BlackScholesCall(Spot, Strike, r, d, Vol, Expiry);
+    double vol = NewtonRaphson<BSCall2, &BSCall2::Price, &BSCall2::Vega>(10.4506, 0.1, tolerance, theCall);
+    
+    std::cout<<"vol found : "<<vol<<" - price 2 : "<<PriceTwo<<std::endl;
+    
+    return 0;
+}
+
 
 
 int main() {
@@ -567,7 +607,9 @@ int main() {
 //    testingSimpleMC7_withWrapper();
 //    testingSimpleMC8();
 //    testingBSEngine();
-    testingTreePricer();
+//    testingTreePricer();
+//    testingBisection();
+    testingNewtonRaphson();
     
     
     return 0;

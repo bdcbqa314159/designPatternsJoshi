@@ -275,8 +275,20 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/dpJoshi_bits/treeAmerican.hpp \
   /usr/local/include/dpJoshi_bits/treeProducts.hpp \
   /usr/local/include/dpJoshi_bits/treeEuropean.hpp \
-  /usr/local/include/dpJoshi_bits/binomialTree.hpp
+  /usr/local/include/dpJoshi_bits/binomialTree.hpp \
+  /usr/local/include/dpJoshi_bits/blackScholesFormulas.hpp \
+  /usr/local/include/dpJoshi_bits/payoffForward.hpp \
+  /usr/local/include/dpJoshi_bits/bsCall.hpp \
+  /usr/local/include/dpJoshi_bits/bisection.hpp \
+  /usr/local/include/dpJoshi_bits/bsCall2.hpp \
+  /usr/local/include/dpJoshi_bits/newtonRaphson.hpp
 
+
+/usr/local/include/dpJoshi_bits/bsCall2.hpp:
+
+/usr/local/include/dpJoshi_bits/payoffForward.hpp:
+
+/usr/local/include/dpJoshi_bits/blackScholesFormulas.hpp:
 
 /usr/local/include/dpJoshi_bits/binomialTree.hpp:
 
@@ -552,6 +564,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
+/usr/local/include/dpJoshi_bits/bsCall.hpp:
+
 /usr/local/include/dpJoshi_bits/antithetic.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference:
@@ -635,6 +649,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /usr/local/include/dpJoshi_bits/payoff1.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
+
+/usr/local/include/dpJoshi_bits/bisection.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit:
 
@@ -765,6 +781,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale:
+
+/usr/local/include/dpJoshi_bits/newtonRaphson.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h:
 

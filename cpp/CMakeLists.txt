@@ -47,6 +47,10 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/binomialTree.hpp
     ${PROJECT_INCLUDE_DIR}/blackScholesFormulas.hpp
     ${PROJECT_INCLUDE_DIR}/payoffForward.hpp
+    ${PROJECT_INCLUDE_DIR}/bsCall.hpp
+    ${PROJECT_INCLUDE_DIR}/bisection.hpp
+    ${PROJECT_INCLUDE_DIR}/bsCall2.hpp
+    ${PROJECT_INCLUDE_DIR}/newtonRaphson.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/random1.cpp
@@ -76,6 +80,8 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/binomialTree.cpp
     ${PROJECT_SOURCE_DIR}/blackScholesFormulas.cpp
     ${PROJECT_SOURCE_DIR}/payoffForward.cpp
+    ${PROJECT_SOURCE_DIR}/bsCall.cpp
+    ${PROJECT_SOURCE_DIR}/bsCall2.cpp
         
     
 )

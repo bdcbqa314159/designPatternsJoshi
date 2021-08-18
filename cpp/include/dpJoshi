@@ -30,6 +30,10 @@
 #include "dpJoshi_bits/binomialTree.hpp"
 #include "dpJoshi_bits/blackScholesFormulas.hpp"
 #include "dpJoshi_bits/payoffForward.hpp"
+#include "dpJoshi_bits/bsCall.hpp"
+#include "dpJoshi_bits/bisection.hpp"
+#include "dpJoshi_bits/bsCall2.hpp"
+#include "dpJoshi_bits/newtonRaphson.hpp"
 
 
 #endif

@@ -274,4 +274,8 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/dpJoshi_bits/treeEuropean.hpp \
   /usr/local/include/dpJoshi_bits/binomialTree.hpp \
   /usr/local/include/dpJoshi_bits/blackScholesFormulas.hpp \
-  /usr/local/include/dpJoshi_bits/payoffForward.hpp
+  /usr/local/include/dpJoshi_bits/payoffForward.hpp \
+  /usr/local/include/dpJoshi_bits/bsCall.hpp \
+  /usr/local/include/dpJoshi_bits/bisection.hpp \
+  /usr/local/include/dpJoshi_bits/bsCall2.hpp \
+  /usr/local/include/dpJoshi_bits/newtonRaphson.hpp
