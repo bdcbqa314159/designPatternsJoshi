@@ -51,6 +51,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/bisection.hpp
     ${PROJECT_INCLUDE_DIR}/bsCall2.hpp
     ${PROJECT_INCLUDE_DIR}/newtonRaphson.hpp
+    ${PROJECT_INCLUDE_DIR}/payoffFactory.hpp
+    ${PROJECT_INCLUDE_DIR}/payoffConstructible.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/random1.cpp
@@ -82,8 +84,9 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/payoffForward.cpp
     ${PROJECT_SOURCE_DIR}/bsCall.cpp
     ${PROJECT_SOURCE_DIR}/bsCall2.cpp
+    ${PROJECT_SOURCE_DIR}/payoffFactory.cpp
+    ${PROJECT_SOURCE_DIR}/payoffRegistration.cpp
         
-    
 )
 
 # Set up such that XCode organizes the files correctly

@@ -34,6 +34,8 @@
 #include "dpJoshi_bits/bisection.hpp"
 #include "dpJoshi_bits/bsCall2.hpp"
 #include "dpJoshi_bits/newtonRaphson.hpp"
+#include "dpJoshi_bits/payoffFactory.hpp"
+#include "dpJoshi_bits/payoffConstructible.hpp"
 
 
 #endif
